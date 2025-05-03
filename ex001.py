@@ -1,2 +1,3 @@
-# Este script imprime "Olá, Mundo!" no console.
-print('Olá, Mundo!')
+# Este script imprime a mensagem "Olá, Mundo!" no console.
+msg = 'Olá, Mundo!'
+print(msg)
