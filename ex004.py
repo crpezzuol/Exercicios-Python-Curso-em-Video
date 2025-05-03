@@ -1,4 +1,4 @@
-frase = input("\nDigite Algo: ")
+frase = input("\nDigite algo: ")
 print('\nO tipo primitivo deste valor é ', type(frase))
 print('Só tem espaços? ', frase.isspace())
 print('É um número? ', frase.isnumeric())
