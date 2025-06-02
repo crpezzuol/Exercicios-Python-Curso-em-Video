@@ -28,5 +28,5 @@ print(dividido)  # Imprime a lista de palavras resultante da divisão da frase
 print(dividido[0])  # Imprime a primeira palavra da lista
 print(dividido[1])  # Imprime a segunda palavra da lista
 print(dividido[2] [2])  # Imprime o terceiro caractere da terceira palavra da lista
-print(dividido[2][2:5])  # Imprime os caracteres da terceira palavra da lista, da posição 2 até a 4
+print(dividido[2][2:5])  # Imprime os caracteres da terceira palavra da ista, da posição 2 até a 4
 print(dividido[2][2:5:2])  # Imprime os caracteres da terceira palavra da lista, da posição 2 até a 4, pulando de 2 em 2
