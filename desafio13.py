@@ -3,7 +3,7 @@ numero = int(input("Digite um número: "))
 def eh_primo(n):
     if n <= 1:
         return False
-    for i in range(2, int(n**0.5) + 1):
+    for i in range(2, int(n**0.5) + 1): # enteder o que é range(2, int(n**0.5) + 1)
         if n % i == 0:
             return False
     return True
@@ -15,7 +15,7 @@ else:
 # solução alternativa
 num = int(input('Digite um número: '))
 if num > 1:
-    for i in range(2, num): 
+    for i in range(2, num): # enteder o que é range(2, int(n**0.5) + 1)
         if num % i == 0:
             print(f'{num} não é primo.')
             break
