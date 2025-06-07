@@ -13,9 +13,9 @@ else:
     print(f"{numero} não é um número primo.")
 
 # solução alternativa
-    num = int(input('Digite um número: '))
+num = int(input('Digite um número: '))
 if num > 1:
-    for i in range(2, num):
+    for i in range(2, num): 
         if num % i == 0:
             print(f'{num} não é primo.')
             break
