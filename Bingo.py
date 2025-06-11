@@ -15,6 +15,7 @@ def exibe_menu():
     print("-=" * 46)
     print("-=" * 20, "Bingo Game", "-=" * 20)
     print("-=" * 46)
+    print("\n" * 2)
     print(" " * 38 + "Menu Jogo Bingo\n")
     print("Escolha uma opção:\n")
     print("1. Iniciar Jogo")
