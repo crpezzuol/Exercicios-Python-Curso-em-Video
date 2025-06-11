@@ -58,5 +58,11 @@ def escolha():
         regras()
         input("\nPressione Enter para voltar ao menu principal...")
         exibe_menu()
-    
+    elif opcao == '3':
+        limpa()
+        print("\nSaindo do jogo...")
+        print("\nObrigado por jogar! Até a próxima!")
+        exit()
+
+
 exibe_menu()  # Chama a função para exibir o menu principal ao iniciar o jogo    
