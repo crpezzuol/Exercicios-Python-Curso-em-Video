@@ -60,8 +60,11 @@ def escolha():
         exibe_menu()
     elif opcao == '3':
         limpa()
-        print("\nSaindo do jogo...")
-        print("\nObrigado por jogar! Até a próxima!")
+        print('-=' * 46)
+        print("\nSaindo do jogo...\n")
+        print('-=' * 46)
+        print("\n" * 2)
+        print("Obrigado por jogar! Até a próxima!", "\n" * 3)
         exit()
 
 
