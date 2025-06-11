@@ -12,7 +12,7 @@ def regras():
     """
     limpa() # Chama a função limpa para limpar a tela antes de exibir as regras
     print("-=" * 46)
-    print("-=" * 20, "Regras do Jogo Bingo", "-=" * 20)
+    print("-=" * 18, "Regras  Jogo Bingo", "-=" * 18)
     print("-=" * 46)
     print("\n" * 2)
     print("Regras do Jogo Bingo:\n")
@@ -43,12 +43,17 @@ def main():
     """
     Função principal do jogo Bingo.
     """
+    print("\n" * 2)
+    print("-=" * 46)
     print('\n' * 2 + "Bem-vindo ao jogo de Bingo!")
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
     print('\nO jogo ainda não está implementado.')
     print('\n' * 2 + "Obrigado por jogar!\n")
-    print("Volte sempre!\n")
+    print("Volte sempre!")
+    print('-=' * 46)
+    print("\n" * 2)
+    exit()
 
 def escolha():
     opcao = input("\nDigite a opção desejada: ")
@@ -56,7 +61,7 @@ def escolha():
         main()  
     elif opcao == '2':
         regras()
-        input("\nPressione Enter para voltar ao menu principal...")
+        input("\nPressione Enter para voltar ao menu principal... ")
         exibe_menu()
     elif opcao == '3':
         limpa()
@@ -65,6 +70,8 @@ def escolha():
         print('-=' * 46)
         print("\n" * 2)
         print("Obrigado por jogar! Até a próxima!", "\n" * 3)
+        print('-=' * 46)
+        print("\n" * 2)
         exit()
 
 
