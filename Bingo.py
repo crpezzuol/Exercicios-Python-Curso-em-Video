@@ -6,6 +6,22 @@ def limpa():
     """
     os.system('cls' if os.name == 'nt' else 'clear')    
 
+def regras():
+    """
+    Exibe as regras do jogo Bingo.
+    """
+    limpa() # Chama a função limpa para limpar a tela antes de exibir as regras
+    print("-=" * 46)
+    print("-=" * 20, "Regras do Jogo Bingo", "-=" * 20)
+    print("-=" * 46)
+    print("\n" * 2)
+    print("Regras do Jogo Bingo:\n")
+    print("1. O jogo é jogado com um cartão de Bingo que contém números.")
+    print("2. Um número é sorteado aleatoriamente e anunciado.")
+    print("3. Os jogadores marcam o número em seus cartões se estiver presente.")
+    print("4. O primeiro jogador a completar uma linha, coluna ou diagonal ganha.")
+    print("5. O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
+    print("\n" * 2 + "Boa sorte!\n")
 
 def exibe_menu():
     """
