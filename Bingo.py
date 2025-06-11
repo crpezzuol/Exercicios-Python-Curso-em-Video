@@ -37,6 +37,7 @@ def exibe_menu():
     print("1. Iniciar Jogo")
     print("2. Regras do Jogo")
     print("3. Sair")
+    escolha()
 
 def main():
     """
@@ -48,8 +49,14 @@ def main():
     print('\nO jogo ainda não está implementado.')
     print('\n' * 2 + "Obrigado por jogar!\n")
     print("Volte sempre!\n")
-exibe_menu()
-opção = input("\nDigite a opção desejada: ")
-if opção == '1':
-    main()
+
+def escolha():
+    opcao = input("\nDigite a opção desejada: ")
+    if opcao == '1':
+        main()  
+    elif opcao == '2':
+        regras()
+        input("\nPressione Enter para voltar ao menu principal...")
+        exibe_menu()
     
+exibe_menu()  # Chama a função para exibir o menu principal ao iniciar o jogo    
