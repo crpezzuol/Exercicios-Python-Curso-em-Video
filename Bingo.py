@@ -6,7 +6,6 @@ def limpa():
     """
     os.system('cls' if os.name == 'nt' else 'clear')    
 
-# Chama a função limpa para limpar a tela ao iniciar o jogo
 
 def exibe_menu():
     """
