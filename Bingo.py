@@ -36,3 +36,4 @@ exibe_menu()
 opção = input("\nDigite a opção desejada: ")
 if opção == '1':
     main()
+    
