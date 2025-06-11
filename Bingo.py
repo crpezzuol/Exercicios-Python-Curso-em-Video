@@ -26,11 +26,11 @@ def main():
     """
     Função principal do jogo Bingo.
     """
-    print('\n' * 2+"Bem-vindo ao jogo de Bingo!")
+    print('\n' * 2 + "Bem-vindo ao jogo de Bingo!")
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
-    print("\nO jogo ainda não está implementado.")
-    print('\n' * 2, "Obrigado por jogar!")
+    print('\nO jogo ainda não está implementado.')
+    print('\n' * 2 + "Obrigado por jogar!\n")
     print("Volte sempre!\n")
 exibe_menu()
 opção = input("\nDigite a opção desejada: ")
