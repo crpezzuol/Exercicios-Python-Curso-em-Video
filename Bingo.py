@@ -31,7 +31,7 @@ def exibe_menu():
     print("-=" * 46)
     print("-=" * 20, "Bingo Game", "-=" * 20)
     print("-=" * 46)
-    print("\n" * 2)
+    print("\n" )
     print(" " * 38 + "Menu Jogo Bingo\n")
     print("Escolha uma opção:\n")
     print("1. Iniciar Jogo")
@@ -43,7 +43,7 @@ def main():
     """
     Função principal do jogo Bingo.
     """
-    print("\n" * 2)
+    print("\n")
     print("-=" * 46)
     print('\n' * 2 + "Bem-vindo ao jogo de Bingo!")
     # Aqui você pode adicionar a lógica do jogo de Bingo
@@ -51,7 +51,7 @@ def main():
     print("\n" * 2 + "Vamos começar!\n")
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
     print('\nO jogo ainda não está implementado.')
-    print('\n' * 2 + "Obrigado por jogar!\n")
+    print('\n' * 2, "Obrigado por jogar!\n")
     print("Volte sempre!")
     print('-=' * 46)
     print("\n" * 2)
@@ -68,7 +68,8 @@ def escolha():
     elif opcao == '3':
         limpa()
         print('-=' * 46)
-        print("\nSaindo do jogo...\n")
+        print('\n * 2','Saindo do jogo...')
+        print("\n" * 2)
         print('-=' * 46)
         print("\n" * 2)
         print("Obrigado por jogar! Até a próxima!", "\n" * 3)
