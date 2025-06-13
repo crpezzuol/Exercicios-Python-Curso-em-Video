@@ -7,3 +7,4 @@ elif nome == 'João' or nome == 'Pedro' or nome == 'Maria' or nome == 'Aparecida
     print('Seu nome é bem popular no Brasil!')
 else:
     print('Seu nome é bem normal!')
+print(f'Tenha um bom dia, {nome}!')
