@@ -1,8 +1,8 @@
 print('\n') # Início do exercício
 # Exercício 036: Gerenciador de Pagamentos
 print('\033[33m=-' * 19 + ' Gerenciador de Pagamentos ' + '-=' * 19 + '\033[m')
-casa = int(input('Qual o valor da casa?: R$ \033[32m'))
-salario = int(input('\033[mQual o salário do comprador?: R$ \033[32m'))
+casa = float(input('Qual o valor da casa?: R$ \033[32m'))
+salario = float(input('\033[mQual o salário do comprador?: R$ \033[32m'))
 anos = int(input('\033[mEm quantos anos pretende financiar?: \033[32m'))
 print('\033[m')
 prestacao = casa / (anos * 12)
