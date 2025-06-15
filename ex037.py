@@ -1,9 +1,12 @@
 
 # This script prompts the user to enter an integer and then prints it in different number bases.
-
+print('\033[1;33m-=' * 20)
+print('\033[1;33m---- Conversion of  Numerical Bases ----\033[m')
+print('\033[1;33m-=' * 20)
+print('\033[m')
 num = int(input("Please enter an integer number: \033[32m"))
 print('\033[m')
-base = int(input('Choose one of the numeric bases for conversion: \033[32m'
+base = int(input('Choose one of the numeric bases for conversion: \033[32m\n'
               '\n1 - Binary'    
               '\n2 - Octal'
               '\n3 - Hexadecimal\n'
