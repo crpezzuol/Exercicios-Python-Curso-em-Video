@@ -1,4 +1,9 @@
+# Exemplo de condicionais
+
 nome = str(input('Qual é o seu nome?: '))
+
+# Verifica o nome e imprime uma mensagem personalizada
+
 if nome == 'Meire' or nome == 'Carlos' or nome =='Natan':
     print('Que nome bonito você tem!')
 elif nome == 'Gustavo':
