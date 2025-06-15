@@ -1,3 +1,6 @@
+# Curso em Vídeo Python
+# Exemplo de uso de cores no terminal com códigos ANSI
+
 print('Olá, mundo!')
 print('\33[31mOlá, mundo!')
 print('\033[31;43;1mOlá, mundo!\033[m')
