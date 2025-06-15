@@ -36,8 +36,9 @@ def compare_numbers(n1, n2):
 
 # This function prints a footer message to thank the user for using the program.
 def print_footer():
+    print('\033[1;33m-=' * 36)
     print('\033[1;33mThank you for using the number comparison program!\033[m')
-    print('\033[1;33m-=' * 20)
+    print('\033[1;33m-=' * 36)
     print('\033[m')
 
 # Main program execution
@@ -47,6 +48,6 @@ def main():
     print_instructions()
     #prompt_user()
     #compare_numbers(n1, n2)
-    #print_footer()
+    print_footer()
 
 main()
