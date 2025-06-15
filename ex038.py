@@ -7,9 +7,9 @@ def clear_screen():
 
 # This function prints a header message to introduce the program.
 def print_header():
-    print('\033[1;33m-=' * 20)
-    print('\033[1;33m---- Number Comparison Program ----\033[m')
-    print('\033[1;33m-=' * 20)
+    print('\033[1;33m-=' * 36)
+    print('\033[1;33m-' * 23,'Number Comparison Program', 22 * '-')
+    print('\033[1;33m-=' * 36)
     print('\033[m')
 
 # This function prints instructions for the user on how to use the program.
@@ -43,8 +43,8 @@ def print_footer():
 # Main program execution
 def main(): 
     clear_screen()
-    #print_header()
-    #print_instructions()
+    print_header()
+    print_instructions()
     #prompt_user()
     #compare_numbers(n1, n2)
     #print_footer()
