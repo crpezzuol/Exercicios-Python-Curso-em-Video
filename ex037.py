@@ -8,4 +8,13 @@ base = int(input('Choose one of the numeric bases for conversion: \033[32m'
               '\n2 - Octal'
               '\n3 - Hexadecimal'
               '\n\033[mYour choice: '))
-              
+print('\033[m')
+if base == 1:
+    print(f'The number {num} in binary is: \033[34m{bin(num)[2:]}\033[m')
+elif base == 2:
+    print(f'The number {num} in octal is: \033[34m{oct(num)[2:]}\033[m')
+elif base == 3:
+    print(f'The number {num} in hexadecimal is: \033[34m{hex(num)[2:]}\033[m')
+else:
+    print('\033[31mInvalid option! Please choose a valid base.\033[m')
+print('\n2')
