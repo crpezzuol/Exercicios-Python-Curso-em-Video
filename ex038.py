@@ -84,6 +84,14 @@ def print_footer():
     print('\033[1;33m-=' * 36)
     print('\033[m')
     print('\n')
+    
+# Esta função imprime uma mensagem de rodapé para agradecer ao usuário por usar o programa.
+def imprimir_rodape():
+    print('\033[1;33m-=' * 40)
+    print('\033[1;34mObrigado por usar o programa de comparação de números!\033[m')
+    print('\033[1;33m-=' * 40)
+    print('\033[m')
+    print('\n')
 
 # Main program execution English version
 def main_english(): 
@@ -94,14 +102,14 @@ def main_english():
     compare_numbers(n1, n2)
     print_footer()
 
+# Main program execution Portuguese version
 def main_portuquese():
     limpar_tela()
     imprimir_cabecalho()
     imprimir_instrucoes()
     solicitar_usuario()
     comparar_numeros(n1, n2)
-
-
+    imprimir_rodape()
 
 
 main_portuquese()
