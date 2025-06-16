@@ -17,6 +17,7 @@ def clear_screen():
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+# This function prompts the user to choose a version of the program.
 def option_version():
     clear_screen()
     print('\033[1;33m-=' * 36)
@@ -27,7 +28,8 @@ def option_version():
     print('\033[1;33m1. English Version\033[m')
     print('\033[1;33m2. Portuguese Brazil Version\033[m')
     print('\033[m')
-    v = int(input('\033[1;33mPlease choose a version by entering the corresponding number: \033[32m'))
+    global choice
+    choice = int(input('\033[1;33mPlease choose a version by entering the corresponding number: \033[32m'))
     print('\033[m')
 
 # This function prints a header message to introduce the program.
@@ -124,5 +126,16 @@ def main_portuquese():
     comparar_numeros(n1, n2)
     imprimir_rodape()
 
+# Main function to run the program
+def main():
+    option_version()
+    if choice == 1:
+        main_english()
+    elif choice == 2:
+        main_portuquese()
+    else:
+        print("\033[31mInvalid choice. Please run the program again.\033[m")
 
-option_version()
+# Run the main function to start the program
+# Executar a função principal para iniciar o programa
+main() 
