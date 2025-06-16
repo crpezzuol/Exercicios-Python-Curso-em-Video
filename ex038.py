@@ -78,7 +78,7 @@ def main():
     compare_numbers(n1, n2)
     print_footer()
 
-# main()
+main()
 
-imprimir_cabecalho()
-imprimir_instrucoes()
+# imprimir_cabecalho()
+# imprimir_instrucoes()
