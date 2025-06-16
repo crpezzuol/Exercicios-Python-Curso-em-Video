@@ -27,6 +27,8 @@ def option_version():
     print('\033[1;33m1. English Version\033[m')
     print('\033[1;33m2. Portuguese Brazil Version\033[m')
     print('\033[m')
+    v = int(input('\033[1;33mPlease choose a version by entering the corresponding number: \033[32m'))
+    print('\033[m')
 
 # This function prints a header message to introduce the program.
 def print_header():
