@@ -46,7 +46,6 @@ def imprimir_cabecalho():
     print('\033[1;33m-=' * 40)
     print('\033[m')
 
-
 # This function prints instructions for the user on how to use the program.
 def print_instructions():
     print('\033[1;33mPlease enter two numbers to compare them.\033[m')
@@ -82,6 +81,7 @@ def compare_numbers(n1, n2):
     else:
         print(f"The two numbers are equal: \033[32m{n1}\033[m = \033[32m{n2}\033[m")
     print('\n')
+    
 # Comparar os dois números e imprimir o resultado
 def comparar_numeros(n1, n2):
     if n1 > n2:
