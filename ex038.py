@@ -51,6 +51,13 @@ def prompt_user():
     n2 = float(input("\033[mEnter second number: \033[32m"))
     print('\033[m')
 
+# Solicitar ao usuário que insira dois números
+def solicitar_usuario():
+    global n1, n2
+    n1 = float(input("Digite o primeiro número: \033[32m"))
+    n2 = float(input("\033[mDigite o segundo número: \033[32m"))
+    print('\033[m')
+
 # Compare the two numbers and print the result 
 def compare_numbers(n1, n2):
     if n1 > n2:
@@ -78,7 +85,8 @@ def main():
     compare_numbers(n1, n2)
     print_footer()
 
-main()
+# main()
 
-# imprimir_cabecalho()
-# imprimir_instrucoes()
+imprimir_cabecalho()
+imprimir_instrucoes()
+solicitar_usuario()
