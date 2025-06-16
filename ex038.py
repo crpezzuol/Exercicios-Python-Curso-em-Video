@@ -1,12 +1,21 @@
 # This program compares two numbers input by the user.
+#This program will have two versions: English and Portuguese from Brazil.
+
+# Este programa compara dois números inseridos pelo usuário.
+# Este programa irá ter duas versões Inglês e Português do Brasil
 
 
-# This program compares two numbers input by the user.
+# Importing the os module to clear the screen
+# # Importando o módulo os para limpar a tela
+import os
+
+# This function clears the screen
 def clear_screen():
-    import os
     os.system('cls' if os.name == 'nt' else 'clear')
 
-#
+# Esta função limpa a tela
+def limpar_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 # This function prints a header message to introduce the program.
 def print_header():
