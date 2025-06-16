@@ -99,6 +99,7 @@ def main_portuquese():
     imprimir_cabecalho()
     imprimir_instrucoes()
     solicitar_usuario()
+    comparar_numeros(n1, n2)
 
 
 
