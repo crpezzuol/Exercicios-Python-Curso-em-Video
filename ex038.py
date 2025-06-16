@@ -6,10 +6,12 @@ def clear_screen():
     import os
     os.system('cls' if os.name == 'nt' else 'clear')
 
+#
+
 # This function prints a header message to introduce the program.
 def print_header():
     print('\033[1;33m-=' * 36)
-    print('\033[1;33m-' * 23,'\033[1;34mNumber Comparison Program\033[m', 22 * '-')
+    print('\033[1;33m-' * 23,'\033[1;34mNumber Comparison Program\033[1;33m', 22 * '-')
     print('\033[1;33m-=' * 36)
     print('\033[m')
 
@@ -29,11 +31,11 @@ def prompt_user():
 # Compare the two numbers and print the result 
 def compare_numbers(n1, n2):
     if n1 > n2:
-        print(f"The first number \033[34m{n1}\033[m is greater than the second number \033[33m{n2}\033[m")
+        print(f"The first number \033[32m{n1}\033[m is greater than the second number \033[31m{n2}\033[m")
     elif n1 < n2:
-        print(f"The second number \033[34m{n2}\033[m is greater than the first number \033[33m{n1}\033[m")
+        print(f"The second number \033[32m{n2}\033[m is greater than the first number \033[31m{n1}\033[m")
     else:
-        print(f"The two numbers are equal: \033[34m{n1}\033[m = \033[34m{n2}\033[m")
+        print(f"The two numbers are equal: \033[32m{n1}\033[m = \033[32m{n2}\033[m")
     print('\n')
 
 # This function prints a footer message to thank the user for using the program.
