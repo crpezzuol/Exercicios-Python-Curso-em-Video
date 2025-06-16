@@ -1,5 +1,5 @@
 # This program compares two numbers input by the user.
-#This program will have two versions: English and Portuguese from Brazil.
+# This program will have two versions: English and Portuguese from Brazil.
 
 # Este programa compara dois números inseridos pelo usuário.
 # Este programa irá ter duas versões Inglês e Português do Brasil
