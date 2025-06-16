@@ -67,6 +67,15 @@ def compare_numbers(n1, n2):
     else:
         print(f"The two numbers are equal: \033[32m{n1}\033[m = \033[32m{n2}\033[m")
     print('\n')
+# Comparar os dois números e imprimir o resultado
+def comparar_numeros(n1, n2):
+    if n1 > n2:
+        print(f"O primeiro número \033[32m{n1}\033[m é maior que o segundo número \033[31m{n2}\033[m")
+    elif n1 < n2:
+        print(f"O segundo número \033[32m{n2}\033[m é maior que o primeiro número \033[31m{n1}\033[m")
+    else:
+        print(f"Os dois números são iguais: \033[32m{n1}\033[m = \033[32m{n2}\033[m")
+    print('\n')
 
 # This function prints a footer message to thank the user for using the program.
 def print_footer():
@@ -76,8 +85,8 @@ def print_footer():
     print('\033[m')
     print('\n')
 
-# Main program execution
-def main(): 
+# Main program execution English version
+def main_english(): 
     clear_screen()
     print_header()
     print_instructions()
@@ -85,8 +94,13 @@ def main():
     compare_numbers(n1, n2)
     print_footer()
 
-# main()
+def main_portuquese():
+    limpar_tela()
+    imprimir_cabecalho()
+    imprimir_instrucoes()
+    solicitar_usuario()
 
-imprimir_cabecalho()
-imprimir_instrucoes()
-solicitar_usuario()
+
+
+
+main_portuquese()
