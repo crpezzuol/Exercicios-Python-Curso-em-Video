@@ -6,7 +6,7 @@
 
 
 # Importing the os module to clear the screen
-# # Importando o módulo os para limpar a tela
+# Importando o módulo os para limpar a tela
 import os
 
 # This function clears the screen
@@ -24,10 +24,24 @@ def print_header():
     print('\033[1;33m-=' * 36)
     print('\033[m')
 
+# Esta função imprime uma mensagem de cabeçalho para apresentar o programa.
+def imprimir_cabecalho():
+    print('\033[1;33m-=' * 40)
+    print('\033[1;33m-' * 23,'\033[1;34mPrograma de Comparação de Números\033[1;33m', 22 * '-')
+    print('\033[1;33m-=' * 40)
+    print('\033[m')
+
+
 # This function prints instructions for the user on how to use the program.
 def print_instructions():
     print('\033[1;33mPlease enter two numbers to compare them.\033[m')
     print('\033[1;33mThe program will tell you which number is greater, or if they are equal.\033[m')
+    print('\033[m')
+
+# Esta função imprime instruções para o usuário sobre como usar o programa.
+def imprimir_instrucoes():
+    print('\033[1;33mPor favor, insira dois números para compará-los.\033[m')
+    print('\033[1;33mO programa informará qual número é maior ou se são iguais.\033[m')
     print('\033[m')
 
 # Prompt the user to enter two numbers
@@ -64,4 +78,7 @@ def main():
     compare_numbers(n1, n2)
     print_footer()
 
-main()
+# main()
+
+imprimir_cabecalho()
+imprimir_instrucoes()
