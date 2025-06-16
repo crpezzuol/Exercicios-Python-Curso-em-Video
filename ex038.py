@@ -17,6 +17,17 @@ def clear_screen():
 def limpar_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+def option_version():
+    clear_screen()
+    print('\033[1;33m-=' * 36)
+    print('\033[1;33m-' * 25,'\033[1;34mVersion  Information\033[1;33m', 25 * '-')
+    print('\033[1;33m-=' * 36)
+    print('\033[m')
+    print('\033[1;33mThis program has two versions:\033[m\n')
+    print('\033[1;33m1. English Version\033[m')
+    print('\033[1;33m2. Portuguese Brazil Version\033[m')
+    print('\033[m')
+
 # This function prints a header message to introduce the program.
 def print_header():
     print('\033[1;33m-=' * 36)
@@ -84,7 +95,7 @@ def print_footer():
     print('\033[1;33m-=' * 36)
     print('\033[m')
     print('\n')
-    
+
 # Esta função imprime uma mensagem de rodapé para agradecer ao usuário por usar o programa.
 def imprimir_rodape():
     print('\033[1;33m-=' * 40)
@@ -102,7 +113,7 @@ def main_english():
     compare_numbers(n1, n2)
     print_footer()
 
-# Main program execution Portuguese version
+# Execução do programa principal versão em português
 def main_portuquese():
     limpar_tela()
     imprimir_cabecalho()
@@ -112,4 +123,4 @@ def main_portuquese():
     imprimir_rodape()
 
 
-main_portuquese()
+option_version()
