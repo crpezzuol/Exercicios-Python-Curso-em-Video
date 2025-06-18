@@ -5,6 +5,12 @@ import os
 def limpa_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
+
+
+
+
+
+
 def alistamento():
     print('\033[1;34m' + '-' * 47)
     print('-' * 13, 'ALISTAMENTO MILITAR', '-' * 13)
@@ -56,6 +62,8 @@ def sexo():
         print('\n')
     if sexo == 'M':
         print("Você é do sexo \033[31mMASCULINO\033[m e precisa de \033[31mALISTAR!\033[m")
+        t = input('Tecle <ENTER> para verificar o ano do seu \033[31mALISTAMENTO!\033[m ')
+        alistamento()
     else:
         print("Você é do sexo \033[35mFeminino\033[m não precisa se \033[32mALISTAR!\033[m")
         print('\n')
@@ -64,4 +72,4 @@ def sexo():
         
 
 
-main()
+sexo()
