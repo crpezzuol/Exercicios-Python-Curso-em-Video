@@ -10,3 +10,4 @@ print(f'Tirando {nota1} e {nota2}, a média do aluno é {media}')
 # teste
 # test
 # test
+# test
