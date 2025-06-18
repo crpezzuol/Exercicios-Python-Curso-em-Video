@@ -4,7 +4,7 @@ from datetime import date
 
 def alistamento():
     print('\033[1;34m' + '-' * 42)
-    print('*' * 10, 'ALISTAMENTO  MILITAR', '*' * 10)
+    print('-' * 10, 'ALISTAMENTO  MILITAR', '-' * 10)
     print('-' * 42 + '\033[m')
     print('\n')
     ano_nasc = int(input("Digite seu ano de nascimento: \033[32m"))
@@ -28,7 +28,7 @@ def alistamento():
 def main():
     alistamento()
     print('\033[1;33m' + '-' * 42)
-    print('*' * 12, 'FIM  DO PROGRAMA', '*' * 12)
+    print('-' * 12, 'FIM  DO PROGRAMA', '-' * 12)
     print('-' * 42 + '\033[m')
     print('\n')
 
