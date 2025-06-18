@@ -1,11 +1,14 @@
 
 from datetime import date
+import os
 
+def limpa_tela():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def alistamento():
-    print('\033[1;34m' + '-' * 42)
-    print('-' * 10, 'ALISTAMENTO  MILITAR', '-' * 10)
-    print('-' * 42 + '\033[m')
+    print('\033[1;34m' + '-' * 47)
+    print('-' * 13, 'ALISTAMENTO MILITAR', '-' * 13)
+    print('-' * 47 + '\033[m')
     print('\n')
     ano_nasc = int(input("Digite seu ano de nascimento: \033[32m"))
     print('\033[m')
@@ -32,6 +35,7 @@ def rodape():
 
 # Main program execution
 def main():
+    limpa_tela
     alistamento()
     rodape()
     print('\n')
@@ -40,6 +44,7 @@ def run():
     main()  
 
 def sexo():
+    limpa_tela
     print('\033[1;34m' + '-' * 47)
     print('-' * 20, '\033[33mSEXO\033[m', '\033[34m-' * 21)
     print('-' * 47 + '\033[m')
@@ -50,7 +55,7 @@ def sexo():
         sexo = input("Opção inválida! Digite seu sexo (M/F): ").strip().upper()
         print('\n')
     if sexo == 'M':
-        print("Você é do sexo masculino e precisa de alistar!")
+        print("Você é do sexo \033[31mMASCULINO\033[m e precisa de \033[31mALISTAR!\033[m")
     else:
         print("Você é do sexo \033[35mFeminino\033[m não precisa se \033[32mALISTAR!\033[m")
         print('\n')
