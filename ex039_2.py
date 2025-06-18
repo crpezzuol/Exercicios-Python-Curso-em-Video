@@ -36,13 +36,15 @@ def run():
     main()  
 
 def sexo():
-    print('\033[1;34m' + '-' * 42)
-    print('-' * 10, 'SEXO', '-' * 10)
-    print('-' * 42 + '\033[m')
+    print('\033[1;34m' + '-' * 46)
+    print('-' * 20, 'SEXO', '-' * 20)
+    print('-' * 46 + '\033[m')
     print('\n')
     sexo = input("Digite seu sexo (M/F): ").strip().upper()
+    print('\n')
     while sexo not in ('M', 'F'):
         sexo = input("Opção inválida! Digite seu sexo (M/F): ").strip().upper()
+        print('\n')
     if sexo == 'M':
         print("Você é do sexo masculino e precisa de alistar!")
     else:
