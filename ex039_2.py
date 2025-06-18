@@ -59,4 +59,4 @@ def sexo():
         
 
 
-sexo()
+main()
