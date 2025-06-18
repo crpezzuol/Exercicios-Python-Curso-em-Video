@@ -25,9 +25,9 @@ def alistamento():
         print('\033[m')
 
 def rodape():
-    print('\033[1;34m' + '-' * 42)
-    print('-' * 12, 'FIM  DO PROGRAMA', '-' * 12)
-    print('-' * 42 + '\033[m')
+    print('\033[1;34m' + '-' * 47)
+    print('-' * 15, 'FIM DO PROGRAMA', '-' * 15)
+    print('-' * 47 + '\033[m')
     print('\n')
 
 # Main program execution
@@ -40,9 +40,9 @@ def run():
     main()  
 
 def sexo():
-    print('\033[1;34m' + '-' * 46)
-    print('-' * 20, 'SEXO', '-' * 20)
-    print('-' * 46 + '\033[m')
+    print('\033[1;34m' + '-' * 47)
+    print('-' * 20, '\033[33mSEXO\033[m', '\033[34m-' * 21)
+    print('-' * 47 + '\033[m')
     print('\n')
     sexo = input("Digite seu sexo (M/F): ").strip().upper()
     print('\n')
@@ -52,7 +52,8 @@ def sexo():
     if sexo == 'M':
         print("Você é do sexo masculino e precisa de alistar!")
     else:
-        print("Você é do sexo feminino não precisa se alistar!")
+        print("Você é do sexo \033[35mFeminino\033[m não precisa se \033[32mALISTAR!\033[m")
+        print('\n')
         rodape()
     print('\n')
         
