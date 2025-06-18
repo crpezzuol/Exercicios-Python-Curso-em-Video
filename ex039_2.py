@@ -24,12 +24,16 @@ def alistamento():
         print(f"Seu alistamento foi em \033[32m{ano_nasc + 18}\033[m.")
         print('\033[m')
 
+def rodape():
+    print('\033[1;34m' + '-' * 42)
+    print('-' * 12, 'FIM  DO PROGRAMA', '-' * 12)
+    print('-' * 42 + '\033[m')
+    print('\n')
+
 # Main program execution
 def main():
     alistamento()
-    print('\033[1;33m' + '-' * 42)
-    print('-' * 12, 'FIM  DO PROGRAMA', '-' * 12)
-    print('-' * 42 + '\033[m')
+    rodape()
     print('\n')
 
 def run():
@@ -49,6 +53,9 @@ def sexo():
         print("Você é do sexo masculino e precisa de alistar!")
     else:
         print("Você é do sexo feminino não precisa se alistar!")
-    print('\033[m')
+        rodape()
+    print('\n')
+        
+
 
 sexo()
