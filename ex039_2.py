@@ -56,12 +56,13 @@ def rodape():
 
 # Main program execution
 def main():
-    limpa_tela
+    limpa_tela()
     alistamento()
     rodape()
     print('\n')
 
 def run():
+    limpa_tela()
     sexo()  
 
 run()
