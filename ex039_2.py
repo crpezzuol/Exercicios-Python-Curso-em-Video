@@ -5,11 +5,26 @@ import os
 def limpa_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
-
-
-
-
-
+def sexo():
+    limpa_tela
+    print('\033[1;34m' + '-' * 47)
+    print('-' * 20, '\033[33mSEXO\033[m', '\033[34m-' * 21)
+    print('-' * 47 + '\033[m')
+    print('\n')
+    sexo = input("Digite seu sexo (M/F): ").strip().upper()
+    print('\n')
+    while sexo not in ('M', 'F'):
+        sexo = input("Opção inválida! Digite seu sexo (M/F): ").strip().upper()
+        print('\n')
+    if sexo == 'M':
+        print("Você é do sexo \033[31mMASCULINO\033[m e precisa de \033[31mALISTAR!\033[m\n")
+        t = input('Tecle <ENTER> para verificar o ano do seu \033[31mALISTAMENTO!\033[m ')
+        main()
+    else:
+        print("Você é do sexo \033[35mFeminino\033[m não precisa se \033[32mALISTAR!\033[m")
+        print('\n')
+        rodape()
+    print('\n')
 
 def alistamento():
     print('\033[1;34m' + '-' * 47)
@@ -47,29 +62,6 @@ def main():
     print('\n')
 
 def run():
-    main()  
+    sexo()  
 
-def sexo():
-    limpa_tela
-    print('\033[1;34m' + '-' * 47)
-    print('-' * 20, '\033[33mSEXO\033[m', '\033[34m-' * 21)
-    print('-' * 47 + '\033[m')
-    print('\n')
-    sexo = input("Digite seu sexo (M/F): ").strip().upper()
-    print('\n')
-    while sexo not in ('M', 'F'):
-        sexo = input("Opção inválida! Digite seu sexo (M/F): ").strip().upper()
-        print('\n')
-    if sexo == 'M':
-        print("Você é do sexo \033[31mMASCULINO\033[m e precisa de \033[31mALISTAR!\033[m")
-        t = input('Tecle <ENTER> para verificar o ano do seu \033[31mALISTAMENTO!\033[m ')
-        alistamento()
-    else:
-        print("Você é do sexo \033[35mFeminino\033[m não precisa se \033[32mALISTAR!\033[m")
-        print('\n')
-        rodape()
-    print('\n')
-        
-
-
-sexo()
+run()
