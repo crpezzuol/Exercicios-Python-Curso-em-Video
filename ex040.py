@@ -7,3 +7,5 @@ if media < 5:
     print('O Aluno está \033[1;31mREPROVADO!\033[m')
 elif media < 6.9:
     print('O Aluno está de \033[1;33mRECUPERAÇÃO!\033[m')
+else:
+    print('O Aluno está \033[1;32mAPROVADO!\033[m')
