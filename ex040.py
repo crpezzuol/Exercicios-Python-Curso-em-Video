@@ -2,6 +2,8 @@ import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+print('<>' * 30)
+print('\n')
 nota1 = float(input('Digite a primeira nota: '))
 nota2 = float(input('Digite a segunda nota: '))
 print('\n')
