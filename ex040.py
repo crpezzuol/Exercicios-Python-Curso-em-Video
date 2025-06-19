@@ -18,3 +18,5 @@ else:
     print('O Aluno está \033[1;32mAPROVADO!\033[m')
 
 print('\n')
+print('\033[34m<>\033[m' * 30)
+print('\n')
