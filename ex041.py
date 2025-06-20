@@ -16,3 +16,6 @@ elif idade < 20:
     print('Classificação: \033[1;34mMJUNIOR\033[m')
 elif idade < 26:
     print('Classificação: \033[1;34mSÊNIOR\033[m')
+else:
+    print('Classificação: \033[1;34mMASTER\033[m')
+    
