@@ -1,2 +1,2 @@
-# teste
-# teste
+
+nasc = int(input('Ano de Nascimento: '))
