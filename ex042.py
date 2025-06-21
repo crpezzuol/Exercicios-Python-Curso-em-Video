@@ -23,6 +23,7 @@ def seg_triangulos():
     else:
          print('\nOs segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
 
+def tipo_triangulos():
 
 
 def main():
