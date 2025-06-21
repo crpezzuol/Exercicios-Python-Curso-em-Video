@@ -4,12 +4,12 @@ def limpa_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def cabecalho():
-    print('''                        <>
+    print('''                   \033[1;34m     <>
                       <>  <>
                     <>      <>
                   <>          <>
                 <>              <>
-              <><><><><><><><><><><>
+              <><><><><><><><><><><>\033[m
            ''')
 
 def seg_triangulos():
