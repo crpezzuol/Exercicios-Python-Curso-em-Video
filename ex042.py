@@ -17,10 +17,11 @@ def seg_triangulos():
     a = int(input('Primeiro segmento: \033[32m'))
     b = int(input('\033[mSegundo segmento: \033[32m'))
     c = int(input('\033[mTerceiro segmento: \033[32m'))
+    print('\n\033[m')
     if a + b > c and a + c > b and b + c > a:
         print('\nThe lengths can form a triangle.\n')
     else:
-         print('\nThe lengths cannot form a triangle.\n')
+         print('\nOs segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
 
 
 
