@@ -11,6 +11,7 @@ def cabecalho():
                 <>              <>
               <><><><><><><><><><><>\033[m
            ''')
+    print('\n\033[m')
 
 def seg_triangulos():
     s1 = int(input('Primeiro segmento: \033[32m'))
@@ -19,7 +20,7 @@ def seg_triangulos():
 
 
 def main():
-    limpa_tela
-    cabecalho
+    limpa_tela()
+    cabecalho()
 
-cabecalho()
+main()
