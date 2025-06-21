@@ -14,13 +14,19 @@ def cabecalho():
     print('\n\033[m')
 
 def seg_triangulos():
-    s1 = int(input('Primeiro segmento: \033[32m'))
-    s2 = int(input('\033[mSegundo segmento: \033[32m'))
-    s3 = int(input('\033[mTerceiro segmento: \033[32m'))
+    a = int(input('Primeiro segmento: \033[32m'))
+    b = int(input('\033[mSegundo segmento: \033[32m'))
+    c = int(input('\033[mTerceiro segmento: \033[32m'))
+    if a + b > c and a + c > b and b + c > a:
+        print('\nThe lengths can form a triangle.\n')
+    else:
+         print('\nThe lengths cannot form a triangle.\n')
+
 
 
 def main():
     limpa_tela()
     cabecalho()
+    seg_triangulos()
 
 main()
