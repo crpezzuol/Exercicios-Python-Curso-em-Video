@@ -35,7 +35,7 @@ def tipo_triangulos(a, b, c):
     elif a != b and a != c and b != c:
         print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
     elif a == b or a == c or b == c:
-            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mISÓSCELES!\033[m\n') 
+        print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mISÓSCELES!\033[m\n') 
 def main():
     limpa_tela()
     cabecalho()
