@@ -20,16 +20,17 @@ def seg_triangulos():
     c = int(input('\033[mTerceiro segmento: \033[32m'))
     print('\n\033[m')
     if a + b > c and a + c > b and b + c > a:
-        if a == b and a == c:
-            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
-        elif a != b and a != c and b != c:
-            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
-        elif a == b or a == c or b == c:
-            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mISÓSCELES!\033[m\n') 
+        tipo_triangulos(a, b, c)
+    #    if a == b and a == c:
+    #        print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
+    #    elif a != b and a != c and b != c:
+    #        print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
+    #    elif a == b or a == c or b == c:
+    #       print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mISÓSCELES!\033[m\n') 
     else:
          print('Os segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
 
-def tipo_triangulos(a, b, c):
+def tipo_triangulos():
     if a == b and a == c:
         print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
     elif a != b and a != c and b != c:
