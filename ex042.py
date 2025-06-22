@@ -30,7 +30,6 @@ def seg_triangulos():
          print('Os segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
 
 def tipo_triangulos(a, b, c):
-    print('************')
     if a == b and a == c:
         print('\nOs segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO\033[m')
 
