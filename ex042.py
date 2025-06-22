@@ -14,7 +14,7 @@ def cabecalho():
     print('\n\033[m')
 
 def seg_triangulos():
-    global a, b, c
+    # global a, b, c
     a = int(input('Primeiro segmento: \033[32m'))
     b = int(input('\033[mSegundo segmento: \033[32m'))
     c = int(input('\033[mTerceiro segmento: \033[32m'))
