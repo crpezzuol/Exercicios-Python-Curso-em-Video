@@ -14,17 +14,23 @@ def cabecalho():
     print('\n\033[m')
 
 def seg_triangulos():
+    global a, b, c
     a = int(input('Primeiro segmento: \033[32m'))
     b = int(input('\033[mSegundo segmento: \033[32m'))
     c = int(input('\033[mTerceiro segmento: \033[32m'))
     print('\n\033[m')
     if a + b > c and a + c > b and b + c > a:
-        print('\nThe lengths can form a triangle.\n')
+        if a == b and a == c:
+            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
+        elif a != b and a != c and b != c:
+            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
     else:
-         print('\nOs segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
+         print('Os segmentos acima \033[1;31mNÃO PODEM\033[m formar um TRIÂNGULO.\n')
 
-def tipo_triangulos():
-
+def tipo_triangulos(a, b, c):
+    print('************')
+    if a == b and a == c:
+        print('\nOs segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO\033[m')
 
 def main():
     limpa_tela()
