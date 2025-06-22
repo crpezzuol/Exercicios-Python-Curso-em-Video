@@ -31,8 +31,11 @@ def seg_triangulos():
 
 def tipo_triangulos(a, b, c):
     if a == b and a == c:
-        print('\nOs segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO\033[m')
-
+        print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
+    elif a != b and a != c and b != c:
+        print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
+    elif a == b or a == c or b == c:
+            print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mISÓSCELES!\033[m\n') 
 def main():
     limpa_tela()
     cabecalho()
