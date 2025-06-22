@@ -21,7 +21,7 @@ def seg_triangulos():
     print('\n\033[m')
     if a + b > c and a + c > b and b + c > a:
     #    tipo_triangulos(a, b, c)
-        if a == b and a == c:
+        if a == b == c:
             print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mEQUILÁTERO!\033[m\n')
         elif a != b and a != c and b != c:
             print('Os segmentos acima \033[1;32mPODEM FORMAR\033[m formar um TRIÂNGULO \033[1;32mESCALENO!\033[m\n')
