@@ -21,3 +21,4 @@ if pagamento == 1:
     print(f'Sua compra de R$ {compra:.2f} vai custar R$ {compra * 0.9:.2f} no final.')
 
 
+print('\n\033[m')
