@@ -18,10 +18,10 @@ print('''FORMAS DE PAGAMENTO >\n
 pagamento = int(input('Qual a opção? \033[1;32m'))
 print('\n\033[m')
 if pagamento == 1:
-    print(f'Sua compra de R$ {compra:.2f} com desconto de \033[1;32m15%\033[m vai custar R$ \033[1;32m{compra * 0.9:.2f}\033[m no final.')
+    print(f'Sua compra de R$ {compra:.2f} com desconto de \033[1;32m" 10% "\033[m vai custar R$ \033[1;32m{compra * 0.9:.2f}\033[m no final.')
 elif pagamento == 2:
-    print(f'Sua compra de R$ {compra:.2f} com desconto de \033[1;32m5$\033[m vai custar R$ \033[1;32m{compra * 0.95:.2f}\033[m no final.')
+    print(f'Sua compra de R$ {compra:.2f} com desconto de \033[1;32m" 5% "\033[m vai custar R$ \033[1;32m{compra * 0.95:.2f}\033[m no final.')
 elif pagamento == 3:
-    print(f'Sua compra de R$ {compra:.2f} sem desconto vai custar R$ {compra}')
+    print(f'Sua compra de R$ {compra:.2f} \033[1;31m" SEM "\033[m desconto vai custar R$ \033[1;32m{compra:.2f}\033[m.')
 
 print('\n\033[m')
