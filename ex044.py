@@ -18,8 +18,10 @@ print('''FORMAS DE PAGAMENTO >\n
 pagamento = int(input('Qual a opção? \033[1;32m'))
 print('\n\033[m')
 if pagamento == 1:
-    print(f'Sua compra de R$ {compra:.2f} vai custar R$ {compra * 0.9:.2f} no final.')
+    print(f'Sua compra de R$ {compra:.2f} com desconto de 15% vai custar R$ {compra * 0.9:.2f} no final.')
 elif pagamento == 2:
-    print(f'Sua compra de R$ {compra:.2f} vai custar R$ {compra * 0.95:.2f} no final.')
+    print(f'Sua compra de R$ {compra:.2f} com desconto de 5$ vai custar R$ {compra * 0.95:.2f} no final.')
+elif pagamento == 3:
+    print(f'Sua compra de R$ {compra:.2f} sem desconto vai custar R$ {compra}')
 
 print('\n\033[m')
