@@ -9,7 +9,7 @@ print('\033[1;32m<>\033[1;33m<>' * 5,'\033[1;34mLOJAS PEZZUOL','\033[1;32m<>\033
 print('\n\033[m')
 compras = float(input('Preço das compras: R$ \033[1;32m'))
 print('\n\033[m')
-print('''FORMAS DE PAGAMENTO>\n
+print('''FORMAS DE PAGAMENTO >\n
       [ 1 ] à vista dinheiro/cheque
       [ 2 ] à vista cartão
       [ 3 ] 2x no cartão
