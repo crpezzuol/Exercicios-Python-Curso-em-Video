@@ -22,6 +22,8 @@ if pagamento == 1:
 elif pagamento == 2:
     print(f'Sua compra de R$ {compra:.2f} com desconto de \033[1;32m" 5% "\033[m vai custar R$ \033[1;32m{compra * 0.95:.2f}\033[m no final.')
 elif pagamento == 3:
-    print(f'Sua compra de R$ {compra:.2f} \033[1;31m" SEM "\033[m desconto vai custar R$ \033[1;32m{compra:.2f}\033[m.')
-
+    print(f'Sua compra de R$ {compra:.2f} \033[1;31m" SEM DESCONTO"\033[m vai custar R$ \033[1;32m{compra:.2f}\033[m.')
+elif pagamento == 4:
+    parcelas = int(input('Em quantas parcelas deseja pagar? \033[1;32m'))
+    print('\033[m')
 print('\n\033[m')
