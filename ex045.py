@@ -18,13 +18,17 @@ def escolha_jogador():
     jogada = int(input('Qual a sua jogada? \033[1;32m'))
     print('\n\033[m')
 
-def 
+def escolha_computador():
+    opcoes = ['PEDRA', 'PAPEL', 'TESOURA', 'SAI FORA']
+    computador = random.randint(0, 2)
+    print(f'Computador jogou: \033[1;31m{opcoes[computador]}\033[m')
+    return computador
 
 def main():
     limpa_tela()
     cabecalho()
     escolha_jogador()
-    
+    escolha_computador()
 
 
 
