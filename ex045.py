@@ -18,11 +18,14 @@ def escolha_jogador():
     jogada = int(input('Qual a sua jogada? \033[1;32m'))
     print('\n\033[m')
 
+def 
+
 def main():
     limpa_tela()
     cabecalho()
     escolha_jogador()
     
+
 
 
 
