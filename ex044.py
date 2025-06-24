@@ -10,10 +10,10 @@ print('\n\033[m')
 compra = float(input('Preço das compras: R$ \033[1;32m'))
 print('\n\033[m')
 print('''FORMAS DE PAGAMENTO >\n
-      [ 1 ] à vista dinheiro/cheque
-      [ 2 ] à vista cartão
-      [ 3 ] 2x no cartão
-      [ 4 ] 3x ou mais no cartão
+    [ 1 ] à vista dinheiro/cheque
+    [ 2 ] à vista cartão
+    [ 3 ] 2x no cartão 
+    [ 4 ] 3x ou mais no cartão
 ''')
 pagamento = int(input('Qual a opção? \033[1;32m'))
 print('\n\033[m')
@@ -31,5 +31,6 @@ elif pagamento == 4:
 else:     
     print('\033[1;31mOpção de Pagamento INVÁLIDA! Tente Novamente!\033[m')
 
+print('\n')
 print('\033[1;32m<>\033[1;33m<>' * 24)
 print('\n\033[m')
