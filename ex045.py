@@ -14,9 +14,14 @@ def cabecalho():
     [3] SAI FORA''')
     print('\n\033[m')
 
+def escolha_jogador():
+    jogada = int(input('Qual a sua jogada? \033[1;32m'))
+    print('\n\033[m')
+
 def main():
     limpa_tela()
     cabecalho()
+    escolha_jogador()
     
 
 
