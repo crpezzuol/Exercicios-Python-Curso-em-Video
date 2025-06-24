@@ -28,5 +28,8 @@ elif pagamento == 4:
     parc_juros = (compra * 1.2) / parcelas
     print(f'\n\033[mSua compra será parcelada em \033[1;34m{parcelas}X\033[m de R$ \033[1;31m{parc_juros:.2f} COM JUROS DE " 20% "\033[m.')
     print(f'Sua compra de R$ \033[1;32m{compra:.2f}\033[m vai custar R$ \033[1;31m{parcelas * parc_juros:.2f}\033[m no final.\n')
-    print('\033[1;32m<>\033[1;33m<>' * 24)
+else:     
+    print('\033[1;31mOpção de Pagamento INVÁLIDA! Tente Novamente!\033[m')
+
+print('\033[1;32m<>\033[1;33m<>' * 24)
 print('\n\033[m')
