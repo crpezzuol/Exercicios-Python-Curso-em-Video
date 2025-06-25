@@ -1,5 +1,7 @@
 import os
 import random
+from time import sleep
+# JOKENPÔ - Jogo do Pedra, Papel e Tesoura
 
 def limpa_tela():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -16,13 +18,21 @@ def cabecalho():
 
 def escolha_jogador():
     jogada = int(input('Qual a sua jogada? \033[1;32m'))
-    print('\n\033[m')
+    print('\033[m')
 
 def escolha_computador():
     opcoes = ['PEDRA', 'PAPEL', 'TESOURA']
     computador = random.randint(0, 2)
     return computador
 
+def esperar():
+    sleep(1)
+    print('JO')
+    sleep(2)
+    print('KEN')
+    sleep(2)
+    print('PÔ!!!')
+    sleep(2)
 
 
 def main():
@@ -30,6 +40,7 @@ def main():
     cabecalho()
     escolha_jogador()
     escolha_computador()
+    esperar()
 
 
 
