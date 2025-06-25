@@ -27,12 +27,12 @@ def escolha_computador():
 
 def esperar():
     sleep(1)
-    print('JO')
-    sleep(2)
-    print('KEN')
-    sleep(2)
-    print('PÔ!!!')
-    sleep(2)
+    print('\033[1;33mJO')
+    sleep(1)
+    print('\033[1;32mKEN')
+    sleep(1)
+    print('\033[1;34mPÔ!!!\033[m')
+    
 
 
 def main():
