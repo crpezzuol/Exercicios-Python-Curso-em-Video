@@ -35,7 +35,7 @@ def esperar():
     sleep(1)
     print('\033[1;34mPÔ!!!\033[m')
     print('\n')
-    print('=' * 69)
+   
     
 def verifica_jogada():
     global resultado
@@ -57,7 +57,16 @@ def verifica_jogada():
         resultado = 'O JOGADOR \033[1;31mSAIU DO JOGO!\033[m'
     else:
         resultado = 'JOGADA INVÁLIDA! TENTE NOVAMENTE.'
-        
+
+def descricao_jogada():
+    global jogador, computador
+    print('=' * 69)
+    print(f'Jogador escolheu: {opcoes[jogador]}')
+    print(f'Computador escolheu: {opcoes[computador]}')
+    print('=' * 69)
+    print('\n')
+    print(resultado)
+    print('\n')
 
 def main():
     limpa_tela()
@@ -65,12 +74,10 @@ def main():
     escolha_jogador()
     escolha_computador()
     esperar()
-    print(f'{opcoes[computador]}')
-    print(f'\033[1;35m{opcoes[jogador]}\033[m')
     verifica_jogada()
-    print(resultado)
+    descricao_jogada()
+    print('\n\033[1;33mObrigado por jogar!\033[m')
+    print('\033[1;33mVolte sempre!\033[m')
+    print('\n' + '=' * 69)
     
-
-
-
 main()
