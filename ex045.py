@@ -21,6 +21,14 @@ def escolha_jogador():
     global jogador
     jogador = int(input('Qual a sua jogada? \033[1;32m'))
     print('\033[m')
+    if jogador == 3:
+        print('\033[1;31mVocê saiu do jogo!\033[m')
+        print('\n')
+        exit()
+    elif jogador < 0 or jogador > 3:
+        print('\033[1;31mJOGADA INVÁLIDA! TENTE NOVAMENTE.\033[m')
+        print('\n')
+        escolha_jogador()
 
 def escolha_computador():
     global computador
