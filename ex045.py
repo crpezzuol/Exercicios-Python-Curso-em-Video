@@ -36,7 +36,7 @@ def escolha_computador():
 
 
 def esperar():
-    sleep(1)
+    sleep(0.5)
     print('\033[1;33mJO')
     sleep(1)
     print('\033[1;32mKEN')
