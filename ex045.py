@@ -32,8 +32,9 @@ def esperar():
     print('\033[1;32mKEN')
     sleep(1)
     print('\033[1;34mPÔ!!!\033[m')
+    print('\n')
     
-
+def 
 
 def main():
     limpa_tela()
