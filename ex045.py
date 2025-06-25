@@ -45,6 +45,19 @@ def verifica_jogada():
         resultado = 'O JOGADOR \033[1;31mPERDEU!\033[m'
     elif jogador == 0 and computador == 2:
         resultado = 'O JOGADOR \033[1;32mGANHOU\033[m'
+    elif jogador == 1 and computador == 0:
+        resultado = 'O JOGADOR \033[1;32mGANHOU\033[m'
+    elif jogador == 1 and computador == 2:
+        resultado = 'O JOGADOR \033[1;31mPERDEU!\033[m'
+    elif jogador == 2 and computador == 0:
+        resultado = 'O JOGADOR \033[1;31mPERDEU!\033[m'
+    elif jogador == 2 and computador == 1:
+        resultado = 'O JOGADOR \033[1;32mGANHOU\033[m'
+    elif jogador == 3:
+        resultado = 'O JOGADOR \033[1;31mSAIU DO JOGO!\033[m'
+    else:
+        resultado = 'JOGADA INVÁLIDA! TENTE NOVAMENTE.'
+        
 
 def main():
     limpa_tela()
