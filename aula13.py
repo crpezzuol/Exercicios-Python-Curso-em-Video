@@ -32,7 +32,10 @@ print('imprimindo uma mensagem com números digitados pelo usuário')
 i = int(input('Digite o início: '))
 f = int(input('Digite o fim: '))
 p = int(input('Digite o passo: '))
-if i > f:
+if p == 0:
+    p = 1  # se o passo for 0, será considerado 
+    print('Passo inválido! Considerando passo 1.')
+elif i > f:
     p = -p  # se o início for maior que o fim, o passo será negativo
 for c in range(i, f+1 , p):
     print(c)
@@ -42,7 +45,7 @@ print('\n')
 print('imprimindo a somatória de números digitados pelo usuário')
 s = 0
 for c in range(1, 4):
-    n = int(input(f'Digite o {c}º número: '))
+    n = float(input(f'Digite o {c}º número: '))
     s += n  # s = s + n
 print(f'A soma dos números digitados é: {s}')
 
