@@ -32,6 +32,8 @@ print('imprimindo uma mensagem com números digitados pelo usuário')
 i = int(input('Digite o início: '))
 f = int(input('Digite o fim: '))
 p = int(input('Digite o passo: '))
+if i > f:
+    p = -p  # se o início for maior que o fim, o passo será negativo
 for c in range(i, f+1 , p):
     print(c)
 
@@ -46,3 +48,4 @@ print(f'A soma dos números digitados é: {s}')
 
 
 print('\n' * 3)
+
