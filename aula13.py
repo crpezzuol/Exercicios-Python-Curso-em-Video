@@ -35,4 +35,14 @@ p = int(input('Digite o passo: '))
 for c in range(i, f+1 , p):
     print(c)
 
+# imprimindo a somatória de números digitados pelo usuário
+print('\n')
+print('imprimindo a somatória de números digitados pelo usuário')
+s = 0
+for c in range(1, 4):
+    n = int(input(f'Digite o {c}º número: '))
+    s += n  # s = s + n
+print(f'A soma dos números digitados é: {s}')
+
+
 print('\n' * 3)
