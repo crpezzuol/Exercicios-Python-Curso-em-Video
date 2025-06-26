@@ -43,8 +43,9 @@ for c in range(i, f+1 , p):
 # imprimindo a somatória de números digitados pelo usuário
 print('\n')
 print('imprimindo a somatória de números digitados pelo usuário')
+qtd = int(input('Quantos números você quer somar? '))
 s = 0
-for c in range(1, 4):
+for c in range(1, qtd + 1):
     n = float(input(f'Digite o {c}º número: '))
     s += n  # s = s + n
 print(f'A soma dos números digitados é: {s}')
