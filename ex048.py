@@ -12,5 +12,6 @@ for c in range(1, 501):
         if c % 3 == 0:
             s += c  # Soma os números ímpares múltiplos de 3
             tn += 1
+            
 print(f'A soma de todos os {tn} valores solicidados é: {s}')
 print('\n')
