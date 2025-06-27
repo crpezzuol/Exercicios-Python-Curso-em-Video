@@ -17,4 +17,3 @@ for c in range(1, 501):
 
 print(f'A soma de todos os {tn} valores solicidados é: {s}')
 print('\n')
-print('')
