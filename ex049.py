@@ -16,4 +16,4 @@ for c in range(1, 11):
     sleep(0.3)  # Atraso de 0.3 segundos entre os números
 print('\n') 
 print('\033[1;31m=' * 20, '\033[34mFIM DA TABUADA', '\033[1;31m=' * 21)
-print('\n' * 3)
+print('\n' * 3, '\033[m')
