@@ -12,5 +12,5 @@ print('\n\033[m')
 
 for c in range(1, 11):
     print(f'{num} x {c:2} = {num * c:3}')
-    
+    sleep(0.3)  # Atraso de 0.3 segundos entre os números
 print('\n' * 3)
