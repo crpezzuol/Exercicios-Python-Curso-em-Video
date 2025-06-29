@@ -11,7 +11,9 @@ print('\n\033[m')
 
 for c in range(1, 7):
     num = int(input(f'Digite o {c}º número inteiro: '))
-    
+    sleep(0.3)  # Atraso de 0.3 segundos entre as entradas
+
+     # Verifica se o número é par
     for i in range(2, num+1, 2):
         if num == i:
             soma += num
