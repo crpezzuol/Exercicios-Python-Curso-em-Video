@@ -13,7 +13,7 @@ print('\n\033[m')
 sleep(0.5)  # Atraso de 0.5 segundos antes de iniciar a tabuada
 
 for c in range(1, 11):
-    print(f'{num} x {c:2} = {num * c:3}')
+    print(f'{num} x {c:2} = \033[1;32m{num * c:3}\033[m')
     sleep(0.3)  # Atraso de 0.3 segundos entre os números
 
 print('\n') 
