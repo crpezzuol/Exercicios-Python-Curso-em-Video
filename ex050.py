@@ -11,8 +11,8 @@ print('\n\033[m')
 
 for c in range(1, 7):
     num = int(input(f'Digite o {c}º número inteiro: '))
+    
     for i in range(2, num+1, 2):
-        print (f'Número par: {i}')
         if num == i:
             soma += num
 print(f'A soma dos números pares digitados é: {soma}')
