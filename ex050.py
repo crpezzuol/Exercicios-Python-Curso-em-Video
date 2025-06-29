@@ -4,5 +4,4 @@ from time import sleep
 os.system('cls' if os.name == 'nt' else 'clear')
 print('\n' * 3)
 for c in range(1, 7):
-    num = float(input(f'Digite o {c}º número: '))
-    if num
+    num = int(input(f'Digite o {c}º número inteiro: '))
