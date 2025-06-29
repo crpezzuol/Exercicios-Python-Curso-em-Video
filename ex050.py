@@ -10,7 +10,8 @@ print('\033[1;31m=' * 24, '\033[34mSOMA DOS NÚMEROS PARES', '\033[1;31m=' * 24)
 print('\n\033[m')
 
 for c in range(1, 7):
-    num = int(input(f'Digite o {c}º número inteiro: '))
+    num = int(input(f'Digite o {c}º número inteiro: \033[1;32m'))
+    print('\n\033[m')
     sleep(0.3)  # Atraso de 0.3 segundos entre as entradas
 
      # Verifica se o número é par
