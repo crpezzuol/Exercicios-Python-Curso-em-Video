@@ -1,7 +1,7 @@
 import os
 from time import sleep
 
-
+soma = 0  # s = soma dos números pares solicitados
 
 os.system('cls' if os.name == 'nt' else 'clear')
 print('\n' * 3)
