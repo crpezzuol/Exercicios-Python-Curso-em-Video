@@ -22,7 +22,7 @@ for c in range(1, 7):
         if num == i:
             soma += num
 
-print(f'A soma dos números pares digitados é: {soma}')
+print(f'A soma dos números pares digitados é: \033[1;32m{soma}')
 print('\n')
 print('\033[1;31m=' * 72)
 print('\n' * 3, '\033[m')
