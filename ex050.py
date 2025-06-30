@@ -6,7 +6,7 @@ soma = 0  # s = soma dos números pares solicitados
 os.system('cls' if os.name == 'nt' else 'clear')
 
 print('\033[1;31m=' * 24, '\033[34mSOMA DOS NÚMEROS PARES', '\033[1;31m=' * 24)
-print('\033[1;31m=' * 70)
+print('\033[1;31m=' * 72)
 print('\n\033[m')
 
 for c in range(1, 7):
