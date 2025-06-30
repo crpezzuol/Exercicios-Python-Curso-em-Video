@@ -11,4 +11,5 @@ for c in range(1, 7):
     if num % 2 == 0:
         soma += num
         cont += 1
-        
+print(f'\nA soma dos {cont} números pares digitados é: {soma}.')
+print('\n' * 3)
