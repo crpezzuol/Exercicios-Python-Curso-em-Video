@@ -14,7 +14,7 @@ print('\033[m')
 termo = primeiro
 decimo = primeiro + (10 - 1) * razao
 for c in range(primeiro, decimo + razao, razao):
-    print(f'\033[1;33m{c}\033[m', end=' ► ')
-print('\n\033[1;32mFIM\033[m')
+    print(f'\033[1;33m{c}\033[m', end=' ► ')# alt + 16
+print('\n\033[1;32mFIM\033[m\n' * 3)
     
 
