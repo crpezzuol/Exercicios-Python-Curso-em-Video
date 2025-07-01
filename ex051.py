@@ -15,6 +15,6 @@ termo = primeiro
 for c in range(1, 11):
     print(f'\033[1;33m{termo}\033[m', end=' ')
     termo += razao
-
+print('\n\033[1;32mFIM\033[m')
     
 
