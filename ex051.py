@@ -13,7 +13,9 @@ razao = int(input('Razão: \033[1;32m'))
 print('\033[m')
 termo = primeiro
 for c in range(1, 11):
+    sleep(0.1)
     print(f'\033[1;33m{termo}\033[m', end=' ')
-    sleep(0.3)
     termo += razao
+
+    
 
