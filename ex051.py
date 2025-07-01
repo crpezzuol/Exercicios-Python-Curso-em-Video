@@ -1,1 +1,3 @@
-# ex051
+import os
+
+from time import sleep
