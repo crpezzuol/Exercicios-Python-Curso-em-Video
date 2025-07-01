@@ -21,3 +21,7 @@ for c in range(1, num + 1):
     else:
         print(f'\033[1;31m{c}\033[m', end='\033[1;35m ► \033[m')  # alt + 16
 print('\033[1;33mFIM\033[m\n')
+
+if cont == 2:
+    print(f'O número {num} foi divisível {cont} vezes.')
+    print(f'\033[1;32mE por isso \033[1;32mé PRIMO!')
