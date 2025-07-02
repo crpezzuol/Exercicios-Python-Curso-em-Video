@@ -16,7 +16,7 @@ print('\033[m')
 sleep(0.5)
 for c in range(1, num + 1):
     if num % c == 0:
-        print(f'\033[1;32m{c}\033[m', sleep(0.2), end='\033[1;35m ► \033[m')  # alt + 16
+        print(f'\033[1;32m{c}\033[m', end='\033[1;35m ► \033[m')  # alt + 16
         cont += 1
     else:
         print(f'\033[1;31m{c}\033[m', end='\033[1;35m ► \033[m')  # alt + 16
