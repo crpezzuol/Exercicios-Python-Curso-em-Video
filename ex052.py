@@ -8,12 +8,15 @@ print ('\033[1;32m=' * 66)
 print('\033[1;33m>' * 25 ,'\033[1;34mNÚMEROS PRIMOS', '\033[1;33m<' * 25)
 print ('\033[1;32m=' * 66)
 print('\033[m')
+
 num = int(input('Digite um número: \033[1;34m'))
 print('\033[m')
 sleep(0.2)
+
 print('\033[1;32mAnalisando...')
 print('\033[m')
 sleep(0.5)
+
 for c in range(1, num + 1):
     if num % c == 0:
         print(f'\033[1;32m{c}\033[m', end='\033[1;35m ► \033[m')  # alt + 16
@@ -28,6 +31,7 @@ if cont == 2:
 else:
     print(f'O número \033[1;33{num}\033[m foi divisível \033[1;31m{cont} \033[mvezes.')
     print(f'E por isso \033[1;31mNÃO É PRIMO!')
+    
 sleep(0.5)
 print('\033[m')
 print('\033[1;32m=' * 66)
