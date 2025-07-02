@@ -6,4 +6,5 @@ if 'SILVA' in nome:
     print('O nome contém "SILVA".')
 else:   
     print('O nome não contém "SILVA".')
-# Fim do programa
+# Fim do programa   
+# End of recent edits
