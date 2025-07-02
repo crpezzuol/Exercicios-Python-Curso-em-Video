@@ -24,4 +24,4 @@ print('\033[1;33mFIM\033[m\n')
 
 if cont == 2:
     print(f'O número \033[1;33{num}\033[m foi divisível \033[1;32m{cont} vezes\033[m.')
-    print(f'\033[1;32mE por isso \033[1;32mÉ PRIMO!')
+    print(f'E por isso \033[1;32mÉ PRIMO!')
