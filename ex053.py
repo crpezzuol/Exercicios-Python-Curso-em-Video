@@ -10,4 +10,3 @@ else:
 # End of recent edits
 # ex053
 # End of recent edits
-# Fim do programa
