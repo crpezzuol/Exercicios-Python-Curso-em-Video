@@ -1,5 +1,9 @@
 # Exemplo de código para verificar se uma frase é um palíndromo
 # Exemplo de palindromos "A sadaca da casa" ou "A mala nada na lama"
+# Exemplo de palíndromos "Apos a sopa" ou "A torre da derrota"
+# Exemplo de palíndromos "A cara rajada da cara" ou "Anotava a data da avó"
+# Exemplo de palíndromos "O lobo ama o bolo" ou "Anotaram a data da Maratona"
+
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
