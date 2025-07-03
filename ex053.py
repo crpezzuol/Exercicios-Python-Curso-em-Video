@@ -1,4 +1,5 @@
 # Exemplo de código para verificar se uma frase é um palíndromo
+# Exemplo de palindromos "A sadaca da casa" ou "A mala nada na lama"
 import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -8,6 +9,6 @@ print(f'O inverso de {frase} é {frase[::-1].upper()}')
 # Verifica se a frase é um palíndromo
 # A frase é um palíndromo se for igual à sua versão invertida
 if frase == frase[::-1]:
-    print('A frase é um palíndromo!')
+    print('A frase digitada é um palíndromo!')
 else:
-    print('A frase não é um palíndromo.')
+    print('A frase digitada não é um palíndromo.')
