@@ -15,7 +15,7 @@ for c in range (1, 8):
     print(f'nascido: {nascido} hoje: {hoje} idade: {idade}')
     # Calcula a idade com base no ano atual
    
-    if nascido < 18:
+    if idade < 18:
         menor += 1
     else:
         maior += 1
