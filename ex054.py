@@ -11,8 +11,8 @@ menor = 0   # Contador de menores de idade
 for c in range (1, 8):
     nascido = int(input(f'Digite a idade da {c}ª pessoa: '))
     idade = hoje - nascido
-    if nascido >= 18:
-        maior += 1
-    else:
+    if nascido < 18:
         menor += 1
+    else:
+        maior += 1
 print(f'Temos {maior} pessoas maiores de idade e {menor} pessoas menores de idade.')
