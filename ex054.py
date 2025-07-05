@@ -8,9 +8,9 @@ maior = 0   # Contador de maiores de idade
 menor = 0   # Contador de menores de idade
 idade = 0  # Variável para armazenar a idade calculada
 
-print('\033[1;34m-=' * 20)
+print('\033[1;34m-=' * 40)
 print('\033[1;34m Verificador de Maioridade \033[m')
-print('\033[1;34m-=' * 20)
+print('\033[1;34m-=' * 40)
 
 print('\033[1;32mVamos verificar a maioridade de 7 pessoas!\033[m')
 print('\n')
