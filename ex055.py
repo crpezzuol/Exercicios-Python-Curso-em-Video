@@ -9,10 +9,10 @@ menor = 0
 # Exercicio 055 - Maior e Menor Peso
 for c in range(1, 8):
     peso = float(input(f'Peso da {c}ª pessoa: '))
-else:
     if c == 1:
         maior = peso
         menor = peso
+    else:
     if peso > maior:
         maior = peso
     elif peso < menor:
