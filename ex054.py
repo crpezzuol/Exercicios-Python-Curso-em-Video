@@ -14,6 +14,8 @@ print('\033[1;34m-=' * 20)
 
 print('\033[1;32mVamos verificar a maioridade de 7 pessoas!\033[m')
 print('\n')
+print('Digite a idade de cada pessoa, e o programa irá calcular quantas são maiores e menores de idade.')
+
 
 # Solicita a idade de 7 pessoas e calcula a quantidade de maiores e menores de idade
 for c in range (1, 8):
