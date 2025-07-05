@@ -13,9 +13,9 @@ print('\033[1;35m>' * 24,'\033[1;31mV e r i f i c a d o r  de  M a i o r i d a d
 print('\033[1;34m-=' * 48)
 print('\n')
 print('\033[1;32mVamos verificar a maioridade de 7 pessoas!')
-print('\n')
-print('Digite a idade de cada pessoa, e o programa irá calcular quantas são maiores e menores de idade.\033[m')
 
+print('Digite a idade de cada pessoa, e o programa irá calcular quantas são maiores e menores de idade.\033[m')
+print('\n')
 # Solicita a idade de 7 pessoas e calcula a quantidade de maiores e menores de idade
 for c in range (1, 8):
     nascido = int(input(f'Digite a idade da {c}ª pessoa: \033[1;32m'))
