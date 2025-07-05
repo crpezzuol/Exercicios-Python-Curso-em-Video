@@ -3,6 +3,8 @@ import os
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
+maior = 0
+menor = 0
 
 # Exercicio 055 - Maior e Menor Peso
 for c in range(1, 8):
