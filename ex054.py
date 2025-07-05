@@ -9,7 +9,7 @@ menor = 0   # Contador de menores de idade
 idade = 0  # Variável para armazenar a idade calculada
 
 print('\033[1;34m-=' * 43)
-print('\033[1;35m>' * 20,'\033[1;31mV e r i f i c a d o r  de  M a i o r i d a d e\033[m', '\033[1;35m<' * 20)
+print('\033[1;35m>' * 24,'\033[1;31mV e r i f i c a d o r  de  M a i o r i d a d e\033[m', '\033[1;35m<' * 24)
 print('\033[1;34m-=' * 60)
 
 print('\033[1;32mVamos verificar a maioridade de 7 pessoas!\033[m')
