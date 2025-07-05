@@ -11,7 +11,7 @@ idade = 0  # Variável para armazenar a idade calculada
 print('\033[1;34m-=' * 48)
 print('\033[1;35m>' * 24,'\033[1;31mV e r i f i c a d o r  de  M a i o r i d a d e\033[m', '\033[1;35m<' * 24)
 print('\033[1;34m-=' * 48)
-
+print('\n')
 print('\033[1;32mVamos verificar a maioridade de 7 pessoas!\033[m')
 print('\n')
 print('Digite a idade de cada pessoa, e o programa irá calcular quantas são maiores e menores de idade.')
