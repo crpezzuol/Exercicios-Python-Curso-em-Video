@@ -18,5 +18,6 @@ for c in range (1, 8):
         menor += 1
     else:
         maior += 1
-print(f'Temos {maior} pessoas maiores de idade e {menor} pessoas menores de idade.')
+print(f'Ao todo tivemos {maior} pessoas maiores de idade.')
+print(f'E também {menor} pessoas menores de idade.')
 print('\n')
