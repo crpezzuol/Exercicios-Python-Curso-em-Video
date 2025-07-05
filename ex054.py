@@ -4,7 +4,7 @@ import datetime
 
 os.system('cls' if os.name == 'nt' else 'clear')
 hoje = datetime.date.today().year
-maior = 0
+maior = 0   # Contador de maiores de idade
 
 # Solicita a idade de 7 pessoas e calcula a quantidade de maiores e menores de idade
 for c in range (1, 8):
