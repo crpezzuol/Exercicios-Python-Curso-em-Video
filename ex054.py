@@ -18,3 +18,4 @@ for c in range (1, 8):
     else:
         maior += 1
 print(f'Temos {maior} pessoas maiores de idade e {menor} pessoas menores de idade.')
+print('\n')
