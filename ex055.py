@@ -25,5 +25,6 @@ for c in range(1, 8):
 print(f'O maior peso lido foi \033[1;31m{maior}\033[m kg.')
 print(f'O menor peso lido foi \033[1;32m{menor}\033[m kg.')
 print('\n')
+print('\033[1;33m=' * 50)
 
 # Fim do arquivo ex055.py
