@@ -12,7 +12,7 @@ print('=' * 50)
 print('\033[m')
 
 for c in range(1, 8):
-    peso = float(input(f'Peso da \033[1;35m{c}\033[mª pessoa: \033[1;34m'))
+    peso = float(input(f'Peso da \033[1;35m{c}ª\033[m pessoa: \033[1;34m'))
     print('\033[m')
     if c == 1:
         maior = peso
