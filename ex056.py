@@ -8,6 +8,7 @@ soma_idade = 0
 maior_idade = 0 
 nome_maior_idade = ''
 
+
 for c in range(1, 5):
     print(f'{"\033[1;34m>" * 10} \033[1;35m{c}ª PESSOA {"\033[1;34m<" * 10}')
     print('\033[m')
