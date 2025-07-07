@@ -8,7 +8,7 @@ menor = 0
 
 print('=' * 30)
 print(' ' * 10 + 'Maior e Menor Peso')
-print('Exercício 055 - Maior e Menor Peso')
+print('=' * 30)
 
 for c in range(1, 8):
     peso = float(input(f'Peso da {c}ª pessoa: '))
