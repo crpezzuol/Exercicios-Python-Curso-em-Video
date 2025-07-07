@@ -7,7 +7,7 @@ maior = 0
 menor = 0
 
 print('\033[1;33m=' * 50)
-print('>' * 15, '\033[1;32mMaior e Menor Peso', '\033[1;31m<' * 15)
+print('>' * 15, '\033[1;32mMaior e Menor Peso', '\033[1;33m<' * 15)
 print('=' * 50)
 print('\033[m')
 
