@@ -4,7 +4,7 @@ import os
 os.system('cls' if os.name == 'nt' else 'clear')
 
 for c in range(1, 5):
-    print(f'{"-" * 6} \033[1;33m{c}ª PESSOA\033[m {"-" * 6}')
+    print(f'{"\033[1;34m-" * 6} \033[1;35m{c}ª PESSOA\033[m {"-" * 6}')
     print('\n')
     nome = str(input(f'Digite seu NOME: '))
     idade = int(input(f'Digite a idade de {nome}: '))
