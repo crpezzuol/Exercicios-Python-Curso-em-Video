@@ -6,7 +6,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 maior = 0
 menor = 0
 
-print('=' * 50)
+print('\033[1;31m=' * 50)
 print('>' * 15, 'Maior e Menor Peso', '<' * 15)
 print('=' * 50)
 
