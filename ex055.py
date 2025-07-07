@@ -6,7 +6,6 @@ os.system('cls' if os.name == 'nt' else 'clear')
 maior = 0
 menor = 0
 
-
 print('Exercício 055 - Maior e Menor Peso')
 for c in range(1, 8):
     peso = float(input(f'Peso da {c}ª pessoa: '))
