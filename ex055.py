@@ -6,8 +6,8 @@ os.system('cls' if os.name == 'nt' else 'clear')
 maior = 0
 menor = 0
 
-print('=' * 30)
-print('>' * 10 + 'Maior e Menor Peso', '<' * 10)
+print('=' * 50)
+print('>' * 10, 'Maior e Menor Peso', '<' * 10)
 print('=' * 30)
 
 for c in range(1, 8):
