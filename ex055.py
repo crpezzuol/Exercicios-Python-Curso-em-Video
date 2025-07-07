@@ -7,7 +7,7 @@ maior = 0
 menor = 0
 
 print('=' * 50)
-print('>' * 10, 'Maior e Menor Peso', '<' * 10)
+print('>' * 15, 'Maior e Menor Peso', '<' * 15)
 print('=' * 30)
 
 for c in range(1, 8):
