@@ -8,7 +8,7 @@ menor = 0
 
 print('=' * 50)
 print('>' * 15, 'Maior e Menor Peso', '<' * 15)
-print('=' * 30)
+print('=' * 50)
 
 for c in range(1, 8):
     peso = float(input(f'Peso da {c}ª pessoa: '))
