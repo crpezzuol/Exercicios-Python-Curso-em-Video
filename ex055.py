@@ -22,6 +22,6 @@ for c in range(1, 8):
             maior = peso
         elif peso < menor:
             menor = peso    
-print(f'O maior peso lido foi \033[1;31m{maior}kg')
+print(f'O maior peso lido foi \033[1;31m{maior}kg.\033[m')
 print(f'O menor peso lido foi {menor}kg')
 print('\n')
