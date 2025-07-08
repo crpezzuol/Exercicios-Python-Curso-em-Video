@@ -18,11 +18,11 @@ for c in range(1, 5):
     print('\033[m')
     soma_idade += idade
 if c == 1 and sexo == 'M':
-        maior_idade = idade
-        nome_maior_idade = nome
-elif sexo == 'M' and idade > maior_idade:
     maior_idade = idade
     nome_maior_idade = nome
+    if sexo == 'M' and idade > maior_idade:
+        maior_idade = idade
+        nome_maior_idade = nome
 
 print(f'Amédia de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
 print(f'O homem mais velho é \033[1;32m{nome_maior_idade}\033[m com \033[1;32m{maior_idade}\033[m anos.')
