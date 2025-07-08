@@ -20,8 +20,8 @@ for c in range(1, 5):
 
     print('\033[m')
     soma_idade += idade
-    
-    if c == 1 and sexo == 'M':
+    # if c == 1 and sexo == 'M':
+    if c == 1 and sexo in 'Mm':
         maior_idade = idade
         nome_maior_idade = nome
     elif sexo == 'M' and idade > maior_idade:
