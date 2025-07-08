@@ -34,6 +34,7 @@ if fem_menor_20 == 1:
     print(f'Ao todo é \033[1;32m{fem_menor_20}\033[m mulher com menos de 20 anos.')
 else:
     print(f'Ao todo são \033[1;32m{fem_menor_20}\033[m de mulheres com menos de 20 anos.')
+    
 print('\n')
 print('\033[1;34m>' * 30 + '\033[1;35mX\033[m' + '\033[1;34m<' * 30)
 print('\033[m')
