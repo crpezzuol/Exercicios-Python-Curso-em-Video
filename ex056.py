@@ -30,7 +30,7 @@ for c in range(1, 5):
 print(f'A média de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
 
 if maior_idade == 0:
-    nome_maior_idade = 'NÃO HÁ HOMENS NO GRUPO'
+    print('Não houve homens no grupo.')
 else:
     print(f'O homem mais velho é \033[1;32m{nome_maior_idade}\033[m com \033[1;32m{maior_idade}\033[m anos.')
 
