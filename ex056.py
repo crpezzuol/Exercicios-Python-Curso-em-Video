@@ -17,10 +17,10 @@ for c in range(1, 5):
     sexo = str(input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m')).strip().upper()
     print('\033[m')
     soma_idade += idade
-if c == 1 and sexo == 'M':
-    maior_idade = idade
-    nome_maior_idade = nome
-    if sexo == 'M' and idade > maior_idade:
+    if c == 1 and sexo == 'M':
+        maior_idade = idade
+        nome_maior_idade = nome
+    elif sexo == 'M' and idade > maior_idade:
         maior_idade = idade
         nome_maior_idade = nome
 
