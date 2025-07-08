@@ -28,7 +28,8 @@ for c in range(1, 5):
     elif sexo in 'Mm' and idade > maior_idade:
         maior_idade = idade
         nome_maior_idade = nome
-    elif sexo == 'F' and idade < 20:
+    #elif sexo == 'F' and idade < 20:
+    elif sexo in 'Ff' and idade < 20:
         fem_menor_20 += 1
 
 print(f'A média de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
