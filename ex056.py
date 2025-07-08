@@ -32,4 +32,4 @@ print(f'O homem mais velho é \033[1;32m{nome_maior_idade}\033[m com \033[1;32m{
 print(f'Ao todo são \033[1;32m{fem_menor_20}\033[m de mulheres com menos de 20 anos.')
 print('\n')
 print('\033[1;34m>' * 30 + '\033[1;35mX\033[m' + '\033[1;34m<' * 30)
-
+print('\033[m')
