@@ -23,4 +23,4 @@ if c == 1 and sexo == 'M':
 
 
 print(f'Amédia de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
-
+print(f'O homem mais velho é {nome_maior_idade} com {maior_idade} anos.')
