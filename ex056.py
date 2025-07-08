@@ -15,7 +15,9 @@ for c in range(1, 5):
     print('\033[m')
     nome = str(input(f'Digite seu NOME: \033[1;32m')).strip().capitalize()
     idade = int(input(f'\033[mDigite a idade de {nome}: \033[1;32m'))
-    sexo = str(input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m')).strip().upper()
+    # sexo = str(input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m')).strip().upper()
+    sexo = input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m').strip()
+
     print('\033[m')
     soma_idade += idade
     if c == 1 and sexo == 'M':
