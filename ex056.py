@@ -18,4 +18,5 @@ for c in range(1, 5):
     print('\033[m')
     soma_idade += idade
 
+
 print(f'Amédia de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
