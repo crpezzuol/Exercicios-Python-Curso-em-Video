@@ -17,3 +17,5 @@ for c in range(1, 5):
     sexo = str(input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m')).strip().upper()
     print('\033[m')
     soma_idade += idade
+
+print(f'Amédia de idade do grupo: \033[1;32m{soma_idade / 4:.2f}\033[m anos')
