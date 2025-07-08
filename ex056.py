@@ -12,7 +12,7 @@ fem_menor_20 = 0
 
 for c in range(1, 5):
     print(f'{"\033[1;34m>" * 10} \033[1;35m{c}ª PESSOA {"\033[1;34m<" * 10}')
-    print('\033[1;34m>' * 15 + '\033[1;35mX\033[m' + '\033[1;34m<' * 15)
+   
     print('\033[m')
     nome = str(input(f'Digite seu NOME: \033[1;32m')).strip().capitalize()
     idade = int(input(f'\033[mDigite a idade de {nome}: \033[1;32m'))
@@ -32,4 +32,4 @@ print(f'A média de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
 print(f'O homem mais velho é \033[1;32m{nome_maior_idade}\033[m com \033[1;32m{maior_idade}\033[m anos.')
 print(f'Ao todo são \033[1;32m{fem_menor_20}\033[m de mulheres com menos de 20 anos.')
 print('\n')
-
+ print('\033[1;34m>' * 15 + '\033[1;35mX\033[m' + '\033[1;34m<' * 15)
