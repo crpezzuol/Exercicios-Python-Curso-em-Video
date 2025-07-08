@@ -24,7 +24,8 @@ for c in range(1, 5):
     if c == 1 and sexo in 'Mm':
         maior_idade = idade
         nome_maior_idade = nome
-    elif sexo == 'M' and idade > maior_idade:
+    #elif sexo == 'M' and idade > maior_idade:
+    elif sexo in 'Mm' and idade > maior_idade:
         maior_idade = idade
         nome_maior_idade = nome
     elif sexo == 'F' and idade < 20:
