@@ -16,3 +16,4 @@ for c in range(1, 5):
     idade = int(input(f'\033[mDigite a idade de {nome}: \033[1;32m'))
     sexo = str(input(f'\033[mDigite o sexo de {nome} (M/F): \033[1;32m')).strip().upper()
     print('\033[m')
+    soma_idade += idade
