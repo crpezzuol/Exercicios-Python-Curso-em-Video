@@ -27,7 +27,7 @@ for c in range(1, 5):
     elif sexo == 'F' and idade < 20:
         fem_menor_20 += 1
 
-print(f'Amédia de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
+print(f'A média de idade do grupo: \033[1;32m{soma_idade / 4:.1f}\033[m anos')
 print(f'O homem mais velho é \033[1;32m{nome_maior_idade}\033[m com \033[1;32m{maior_idade}\033[m anos.')
 print(f'Ao todo são \033[1;32m{fem_menor_20}\033[m de mulheres com menos de 20 anos.')
 
