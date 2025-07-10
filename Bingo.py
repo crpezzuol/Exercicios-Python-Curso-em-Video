@@ -45,7 +45,7 @@ def main():
     Função principal do jogo Bingo.
     """
     print("\n")
-    print("-=" * 46)
+    print("\033[1;33m-=" * 46)
     print('\n' * 2 + "Bem-vindo ao jogo de Bingo!")
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
