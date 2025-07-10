@@ -22,7 +22,8 @@ def regras():
     print("4. O primeiro jogador a completar uma linha, coluna ou diagonal ganha.")
     print("5. O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
     print("\n" * 2 + "Boa sorte!\n")
-    
+
+
 
 def exibe_menu():
     """
