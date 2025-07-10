@@ -19,7 +19,7 @@ for i in range(1, 6):
     if  numero > 80:
         print('\033[1;31mNúmero inválido! Digite um número entre 1 e 80.\033[m')
     
-print('\033[1;32mSORTEANDO 5 NÚMEROS, AGUARDE...\n')
+print('\n\033[1;32mSORTEANDO 5 NÚMEROS, AGUARDE...\n')
 time.sleep(2)
 numeros = random.sample(range(1, 81), 5)
 print('\033[1;33mOs números sorteados foram:\033[m', end=' ')
