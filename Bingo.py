@@ -37,7 +37,7 @@ def exibe_menu():
     Exibe o menu principal do jogo Bingo.
     """
     limpa() # Chama a função limpa para limpar a tela ao iniciar o jogo
-    
+    cabecalho()  # Chama a função cabeçalho para exibir o cabeçalho do jogo
     print("\033[1;33m>" * 37, "\033[1;32mMenu Jogo Bingo", '\033[1;33m<' * 38)
     print("\n")
     print("\033[1;32mEscolha uma opção:\n")
