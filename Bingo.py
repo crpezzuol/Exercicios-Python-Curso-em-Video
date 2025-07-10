@@ -52,7 +52,7 @@ def main():
     """
     limpa()  # Chama a função limpa para limpar a tela antes de iniciar o jogo
     cabecalho()  # Chama a função cabeçalho para exibir o cabeçalho do jogo
-    print('\033[1;33m>' * 32, "\033[1;32mBem-vindo ao jogo de Bingo!", '<' * 31)
+    print('\033[1;33m>' * 32, "\033[1;32mBem-vindo ao jogo de Bingo!", '\033[1;32m<' * 31)
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
     print("\n" * 2 + "Vamos começar!\n")
