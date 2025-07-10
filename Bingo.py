@@ -55,9 +55,9 @@ def main():
     print('\033[1;33m>' * 32, "\033[1;32mBem-vindo ao jogo de Bingo!", '\033[1;33m<' * 31)
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
-    print("\n" * 2 + "Vamos começar!\n")
+    print("\n" * 2 + "\033[mVamos começar!\n")
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
-    print('\nO jogo ainda não está implementado.')
+    print('\n\033O jogo ainda não está implementado.')
     print('\n' * 2, "Obrigado por jogar!\n")
     print("Volte sempre!")
     print('-=' * 46)
