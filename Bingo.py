@@ -59,7 +59,7 @@ def main():
     exit()
 
 def escolha():
-    opcao = input("\nDigite a opção desejada: ")
+    opcao = input("\nDigite a opção desejada: \033[1;32m").strip()]")
     if opcao == '1':
         main()  
     elif opcao == '2':
