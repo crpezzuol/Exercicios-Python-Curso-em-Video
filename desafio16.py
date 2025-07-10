@@ -12,7 +12,7 @@ print('\033[m')
 print('\033[1;33m>' * 23, '\033[1;34mESCOLHA 5 NÚMEROS ENTRE 1 E 80', '\033[1;33m<' * 22)
 print('\n')
 
-print('\n\033[1;31mAtenção! \033[1;33mVocê só pode escolher números entre 1 e 80.\033[m')
+print('\n\033[1;31mAtenção! \033[1;32mVocê só pode escolher números entre 1 e 80.\033[m')
 print ('\n')
 for i in range(1, 6):
     while True:
