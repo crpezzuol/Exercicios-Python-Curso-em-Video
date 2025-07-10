@@ -7,7 +7,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print('\033[1;33m>' * 38 + 'X' + '<' * 38)
 print('>' * 30, '\033[1;34mLOTERIA - QUINA', '\033[1;33m<' * 30)
 print('>' * 38 + 'X' + '<' * 38)
-
+print('\033[m')
 
 
 print('\033[m')
