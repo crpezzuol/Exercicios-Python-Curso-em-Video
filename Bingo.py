@@ -57,7 +57,7 @@ def main():
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
     print("\n" * 2 + "\033[mVamos começar!\n")
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
-    print('\n\033[1;31mO jogo ainda não está implementado')
+    print('\n\033[1;31mO jogo ainda não está implementado!')
     print('\n' * 2, "Obrigado por jogar!\n")
     print("Volte sempre!")
     print('-=' * 46)
