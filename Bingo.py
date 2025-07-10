@@ -51,7 +51,7 @@ def main():
     Função principal do jogo Bingo.
     """
     limpa()  # Chama a função limpa para limpar a tela antes de iniciar o jogo
-    print("\n")
+    
     print("\033[1;33m-=" * 46)
     print('\n' * 2 + "Bem-vindo ao jogo de Bingo!")
     # Aqui você pode adicionar a lógica do jogo de Bingo
