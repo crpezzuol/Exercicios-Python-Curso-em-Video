@@ -37,7 +37,7 @@ def exibe_menu():
     print("\033[1;32mEscolha uma opção:\n")
     print("\033[1;34m1. \033[mIniciar Jogo")
     print("\033[1;34m2. \033[mRegras do Jogo")
-    print("\033[1;34m3. Sair")
+    print("\033[1;34m3. \033[mSair")
     escolha()
 
 def main():
