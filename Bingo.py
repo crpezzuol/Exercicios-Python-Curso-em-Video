@@ -59,7 +59,8 @@ def main():
     exit()
 
 def escolha():
-    opcao = input("\nDigite a opção desejada: \033[1;32m").strip()]")
+    opcao = input("\nDigite a opção desejada: \033[1;32m").strip()
+    print("\033[m")  # Reseta a cor do texto após a entrada do usuário
     if opcao == '1':
         main()  
     elif opcao == '2':
