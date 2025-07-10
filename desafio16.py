@@ -18,8 +18,8 @@ for i in range(1, 6):
     numero = int(input(f'\033[1;34mDigite o {i}º número: \033[m'))
     if  numero > 80:
         print('\033[1;31mNúmero inválido! Digite um número entre 1 e 80.\033[m')
-        except ValueError
-            print('\033[1;31mEntrada inválida! Por favor, digite um número inteiro.\033[m')
+    else:
+        print('\033[1;31mEntrada inválida! Por favor, digite um número inteiro.\033[m')
 print('\033[1;32mSORTEANDO 5 NÚMEROS, AGUARDE...\n')
 time.sleep(2)
 numeros = random.sample(range(1, 81), 5)
