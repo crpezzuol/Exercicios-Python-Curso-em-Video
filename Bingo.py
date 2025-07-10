@@ -61,7 +61,7 @@ def main():
     print('\n' * 2 + "\033[mObrigado por jogar!")
     print('\n' * 2 + "Volte sempre!")
     print('\n' * 2)
-    print('-=' * 46)
+    print('\033[1;33m-=' * 46)
     print("\n" * 2)
     exit()
 
