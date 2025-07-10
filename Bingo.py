@@ -34,7 +34,7 @@ def exibe_menu():
     print("\n\033[m" )
     print("\033[1;33m>" * 37, "\033[1;32mMenu Jogo Bingo", '\033[1;33m<' * 38)
     print("\n\033[m")
-    print("\nEscolha uma opção:\n")
+    print("Escolha uma opção:\n")
     print("1. Iniciar Jogo")
     print("2. Regras do Jogo")
     print("3. Sair")
