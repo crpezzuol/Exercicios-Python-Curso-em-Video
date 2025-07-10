@@ -1,6 +1,7 @@
 #
 import os
 import random
+import time
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
