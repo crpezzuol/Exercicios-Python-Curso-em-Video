@@ -29,7 +29,7 @@ def exibe_menu():
     """
     limpa() # Chama a função limpa para limpar a tela ao iniciar o jogo
     print("\033[1;33m-=" * 46)
-    print("-=" * 20, "Bingo Game", "-=" * 20)
+    print("-=" * 20, "\033[1;32mBingo Game", "-=" * 20)
     print("-=" * 46)
     print("\n" )
     print(" " * 38 + "Menu Jogo Bingo\n")
