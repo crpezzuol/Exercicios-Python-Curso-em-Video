@@ -23,7 +23,7 @@ def regras():
     print("5. O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
     print("\n" * 2 + "Boa sorte!\n")
 
-
+def cabecalho():
 
 def exibe_menu():
     """
