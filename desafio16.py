@@ -4,7 +4,7 @@ import random
 
 os.system('cls' if os.name == 'nt' else 'clear')
 
-
+print('>' * 38 + 'X' + '<' * 38)
 print('>' * 30, 'LOTERIA - QUINA', '<' * 30)
 
 
