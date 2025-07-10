@@ -15,11 +15,9 @@ print('\n')
 print('\n\033[1;31mAtenção! \033[1;32mVocê só pode escolher números entre 1 e 80.\033[m')
 print ('\n')
 for i in range(1, 6):
-    while True:
-        try:
-            numero = int(input(f'\033[1;34mDigite o {i}º número: \033[m'))
-            if 1 <= numero <= 80:
-                break
+    numero = int(input(f'\033[1;34mDigite o {i}º número: \033[m'))
+    if 1 <= numero <= 80:
+        
             else:
                 print('\033[1;31mNúmero inválido! Digite um número entre 1 e 80.\033[m')
         except ValueError:
