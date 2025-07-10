@@ -24,6 +24,13 @@ def regras():
     print("\n" * 2 + "Boa sorte!\n")
 
 def cabecalho():
+    """
+    Exibe o cabeçalho do jogo Bingo.
+    """
+    print("\033[1;33m-=" * 46)
+    print("-=" * 20, "\033[1;32mBingo Game", "\033[1;33m-=" * 20)
+    print("-=" * 46)
+    print("\n\033[m" )
 
 def exibe_menu():
     """
