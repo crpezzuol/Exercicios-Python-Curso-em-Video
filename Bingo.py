@@ -18,7 +18,7 @@ def regras():
     print("\033[1;34m2.\033[m Um número é sorteado aleatoriamente e anunciado.")
     print("\033[1;34m3.\033[m Os jogadores marcam o número em seus cartões se estiver presente.")
     print("\033[1;34m4.\033[m O primeiro jogador a completar uma linha, coluna ou diagonal ganha.")
-    print("\033[1;34m5. O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
+    print("\033[1;34m5.\033[m O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
     print("\n" * 2 + "Boa sorte!\n")
 
 def cabecalho():
