@@ -80,7 +80,7 @@ def escolha():
         limpa()
         cabecalho()
         print('\033[1;31mSaindo do jogo...')
-        sleep(2)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
+        sleep(1)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
         print("\n" * 2) 
         print("\033[1;32mObrigado por jogar! Até a próxima!", "\n" * 3)
         print('\033[1;33m-=' * 46)
