@@ -1,5 +1,7 @@
 # Bingo 
 import os
+from time import sleep
+
 def limpa():
     """
     Limpa a tela do terminal.
@@ -53,7 +55,8 @@ def main():
     print('\033[1;33m>' * 32, "\033[1;32mBem-vindo ao jogo de Bingo!", '\033[1;33m<' * 31)
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
-    print("\n" * 2 + "\033[mVamos começar!\n")
+    print("\n" * 2 + "\033[mVamos começar...\n")
+    sleep(2)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
     print('\n\033[1;31mO jogo ainda não está implementado!')
     print('\n' * 2 + "\033[mObrigado por jogar!")
