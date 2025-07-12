@@ -82,7 +82,7 @@ def escolha():
         print('Saindo do jogo...')
         sleep(2)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
         print("\n" * 2)
-        print('-=' * 46)
+        
         print("\n" * 2)
         print("Obrigado por jogar! Até a próxima!", "\n" * 3)
         print('-=' * 46)
