@@ -11,7 +11,7 @@ def regras():
     Exibe as regras do jogo Bingo.
     """
     limpa() # Chama a função limpa para limpar a tela antes de exibir as regras
-    print("-=" * 46)
+    
     print(">" * 36, "Regras  Jogo Bingo", "<" * 36)
     print("-=" * 46)
     print("\n" * 2)
