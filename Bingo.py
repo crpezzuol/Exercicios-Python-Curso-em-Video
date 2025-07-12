@@ -60,7 +60,7 @@ def main():
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
     print('\n\033[1;31mO jogo ainda não está implementado!')
     print('\n' * 2 + "\033[mObrigado por jogar!")
-    print('\n' * 2 + "Volte sempre!")
+    print('\n' * 2 + "\033[1;32mVolte sempre!")
     print('\n' * 2)
     print('\033[1;33m-=' * 46)
     print("\n\033[m" * 2)
