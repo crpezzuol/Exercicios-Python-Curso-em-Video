@@ -56,7 +56,7 @@ def main():
     # Aqui você pode adicionar a lógica do jogo de Bingo
     # Por exemplo, gerar cartões de Bingo, sortear números, etc.
     print("\n" * 2 + "\033[mVamos começar...\n")
-    sleep(2)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
+    sleep(1)  # Pausa de 2 segundos para dar tempo ao usuário de ler a mensagem
     # Por exemplo, gerar números aleatórios, verificar vencedores, etc.
     print('\n\033[1;31mO jogo ainda não está implementado!')
     print('\n' * 2 + "\033[mObrigado por jogar!")
