@@ -13,7 +13,7 @@ def regras():
     limpa() # Chama a função limpa para limpar a tela antes de exibir as regras
     cabecalho()  # Chama a função cabeçalho para exibir o cabeçalho do jogo
     print("\033[1;33m>" * 36, "\033[1;32mRegras  Jogo Bingo", "\033[1;33m<" * 36)
-    print("\n\033[m")
+    print("\n")
     print("1. O jogo é jogado com um cartão de Bingo que contém 15 números.")
     print("2. Um número é sorteado aleatoriamente e anunciado.")
     print("3. Os jogadores marcam o número em seus cartões se estiver presente.")
