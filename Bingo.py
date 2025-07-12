@@ -15,7 +15,7 @@ def regras():
     print("\033[1;33m>" * 36, "\033[1;32mRegras  Jogo Bingo", "\033[1;33m<" * 36)
     print("\n")
     print("\033[1;34m1.\033[m O jogo é jogado com um cartão de Bingo que contém 15 números.")
-    print("\033[1;34m2. Um número é sorteado aleatoriamente e anunciado.")
+    print("\033[1;34m2.\033[m Um número é sorteado aleatoriamente e anunciado.")
     print("3. Os jogadores marcam o número em seus cartões se estiver presente.")
     print("4. O primeiro jogador a completar uma linha, coluna ou diagonal ganha.")
     print("5. O jogo continua até que um jogador complete o cartão ou até que não haja mais números a serem sorteados.")
