@@ -79,7 +79,6 @@ def escolha():
     elif opcao == '3':
         limpa()
         cabecalho()
-        
         print('Saindo do jogo...')
         print("\n" * 2)
         print('-=' * 46)
