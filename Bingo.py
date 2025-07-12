@@ -64,7 +64,6 @@ def main():
     print('\n' * 2)
     print('\033[1;33m-=' * 46)
     print("\n\033[m" * 2)
-
     exit()
 
 def escolha():
