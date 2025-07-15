@@ -12,7 +12,9 @@ while c < 10:
 print('Fim do loop')
 '''
 
-
+'''
 for n in range(1, 5):
     n = int(input('Digite um número: '))
 print('Fim')
+'''
+
