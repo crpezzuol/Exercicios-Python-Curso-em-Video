@@ -34,3 +34,5 @@ print('Fim')
 '''
 
 
+n = 1
+par = impar = 0
