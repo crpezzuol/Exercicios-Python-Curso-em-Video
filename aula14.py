@@ -1,5 +1,5 @@
 # aula14
-''''''
+'''
 for c in range(1, 10):
     print(c)
 print('Fim do loop')
