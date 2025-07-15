@@ -25,9 +25,10 @@ while n != 0:
 print('Fim')
 '''
 
-
+'''
 r = 's'
 while r == 's':
     n = int(input('Digite um número: '))
     r = str(input('Quer continuar? [S/N] ')).strip().lower()
 print('Fim')
+'''
