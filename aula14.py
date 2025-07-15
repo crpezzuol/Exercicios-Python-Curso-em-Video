@@ -32,3 +32,5 @@ while r == 's':
     r = str(input('Quer continuar? [S/N] ')).strip().lower()
 print('Fim')
 '''
+
+
