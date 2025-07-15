@@ -26,3 +26,7 @@ print('Fim')
 '''
 
 
+r = 's'
+while n != 0:
+    n = int(input('Digite um número: '))
+print('Fim')
