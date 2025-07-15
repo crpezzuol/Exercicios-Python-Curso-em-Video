@@ -1,7 +1,8 @@
 # aula14
 
-
-
+for c in range(1, 10):
+    print(c)
+print('Fim do loop')
 
 
 
@@ -12,5 +13,3 @@ while c < 10:
 print('Fim do loop')
 '''
 
-for c in range(1, 5):
-    print(c)
