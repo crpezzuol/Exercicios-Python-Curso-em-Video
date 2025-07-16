@@ -1,5 +1,5 @@
  # ex057
 
-while m != 'M' or f != 'F':
+while s != 'M' or s != 'F':
     s = str(input('Informe seu sexo [M/F]: ')).strip().upper()    
     ('Dados inválidos. Por favor, informe seu sexo [M/F]: ').strip().upper()
