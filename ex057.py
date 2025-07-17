@@ -6,4 +6,5 @@ while s != 'M':
 if s == 'M':
     print('Sexo "MASCULINO" registrado com sucesso!')
 elif s == 'F':
-    print('Sexo "FEMININO" registrado com sucesso!')
+    print('Sexo "FEMININO" registrado com sucesso!') 
+    
