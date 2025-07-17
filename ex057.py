@@ -1,4 +1,3 @@
- # ex057
 
 s = str(input('Informe seu sexo [M/F]: ')).strip().upper()
 while s not in 'MF':    
