@@ -1,4 +1,6 @@
 # ex059 Criando um Menu de Opções
+# minha solução
+
 import os
 os.system('cls' if os.name == 'nt' else 'clear')
 
