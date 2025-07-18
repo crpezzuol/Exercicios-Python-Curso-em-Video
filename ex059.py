@@ -13,3 +13,4 @@ print('    [ 1 ] Somar'
 '\n    [ 4 ]  Novos números' 
 '\n    [ 5 ] Sair do Programa\n')
 opcao = int(input('>>>>> Qual é a sua opção? \033[1;32m'))
+print('\033[m')
