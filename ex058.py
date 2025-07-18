@@ -3,7 +3,7 @@ import os
 from time import sleep
 from random import randint
 
-
+# minha solução
 
 palpites = 0
 os.system('cls' if os.name == 'nt' else 'clear')
