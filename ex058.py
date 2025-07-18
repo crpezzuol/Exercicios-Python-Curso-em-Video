@@ -14,10 +14,10 @@ print('Será que você consegue adivinhar qual foi?\n')
 palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
 computador = randint(1, 10)
-tentativas += 1
+palpites += 1
 while palpite != computador:
     if palpite < computador:
-        tentativas += 1
+        palpites += 1
         print('Mais... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
