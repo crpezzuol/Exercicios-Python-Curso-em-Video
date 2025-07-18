@@ -2,7 +2,7 @@
 from time import sleep
 import random
 
-
+tentativas = 0
 print('Sou seu computador...')
 sleep(0.5)
 print('Estou pensando em um número entre 0 e 10...')
