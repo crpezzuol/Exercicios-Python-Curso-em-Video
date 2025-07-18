@@ -15,4 +15,5 @@ tentativas += 1
 while palpite not in numero:
     if palpite > numero:
         
+        palpite = int(input('Mais... Tente mais uma vez'))
 
