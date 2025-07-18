@@ -44,4 +44,5 @@ while not acertou:
     palpites += 1
     if jogador == computador:
         acertou = True
+    else:
         
