@@ -22,10 +22,10 @@ while jogador != computador:
         jogador = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
     else:
-        palpite > computador
+        jogador > computador
         palpites += 1
         print('Menos... Tente mais uma vez!')
-        palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
+        jogador = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
 if palpites == 1:
     print(f'Você acertou apenas com {palpites} tentativa, isso foi INCRIVEL!!!\n' )
