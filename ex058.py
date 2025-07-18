@@ -3,6 +3,7 @@ import os
 from time import sleep
 import random
 
+
 tentativas = 0
 os.system('cls' if os.name == 'nt' else 'clear')
 print('Sou seu computador...')
