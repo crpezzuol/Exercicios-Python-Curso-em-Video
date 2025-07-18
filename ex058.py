@@ -23,7 +23,7 @@ while palpite != computador:
         print('\033[m')
     else:
         palpite > computador
-        tentativas += 1
+        palpites += 1
         print('Menos... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
