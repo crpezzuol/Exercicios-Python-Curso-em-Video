@@ -33,3 +33,4 @@ else:
     print(f'Acertou com {tentativas} tentativas, Parabéns!!!\n')
 
 
+computador = randint(0, 10)
