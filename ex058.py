@@ -48,4 +48,4 @@ while not acertou:
         if jogador < computador:
             print('Mais... Tente mais uma vez.')   
         elif jogador > computador:
-            print('Menos... Tnte outra vez')
+            print('Menos... Tente mais uma vez')
