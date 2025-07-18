@@ -45,4 +45,5 @@ while not acertou:
     if jogador == computador:
         acertou = True
     else:
-        
+        if jogador < computador:
+            
