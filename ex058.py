@@ -1,7 +1,7 @@
  # ex058
 import os
 from time import sleep
-import random
+from random import randint
 
 tentativas = 0
 os.system('cls' if os.name == 'nt' else 'clear')
@@ -13,7 +13,7 @@ sleep(1)
 print('Será que você consegue adivinhar qual foi?\n')
 palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
-numero = random.randint(1, 10)
+numero = randint(1, 10)
 tentativas += 1
 while palpite != numero:
     if palpite < numero:
