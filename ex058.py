@@ -4,7 +4,6 @@ from time import sleep
 from random import randint
 
 palpites = 0
-
 os.system('cls' if os.name == 'nt' else 'clear')
 print('>' * 20, 'JOGO DE ADIVINHAÇÃO', '<' * 20, '\n')
 print('Sou seu computador...')
@@ -28,7 +27,7 @@ while palpite != computador:
         print('Menos... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
-if tentativas == 1:
+if palpites == 1:
     print(f'Você acertou apenas com {palpites} tentativa, isso foi INCRIVEL!!!\n' )
 else:
     print(f'Acertou com {palpites} tentativas, Parabéns!!!\n')
