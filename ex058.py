@@ -23,4 +23,5 @@ while palpite != numero:
         palpite += 1
     else:
         palpite == numero:
+        palpite += 1
         print(f'Acertou com {palpites} tentativas. Parabéns!!!')
