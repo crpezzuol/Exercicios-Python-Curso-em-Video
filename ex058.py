@@ -11,3 +11,4 @@ print('Será que você consegue adivinhar qual foi?')
 palpite = int(input('Qual é o seu palpite: \033[1;32m'))
 print('\033[m')
 numero = random.randint(0, 10)
+tentativas += 1
