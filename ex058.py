@@ -31,3 +31,5 @@ if tentativas == 1:
     print(f'Você acertou apenas com {tentativas} tentativa, isso foi INCRIVEL!!!\n' )
 else:
     print(f'Acertou com {tentativas} tentativas, Parabéns!!!\n')
+
+
