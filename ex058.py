@@ -17,7 +17,7 @@ while palpite != numero:
         palpite += 1
         print('Mais... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite?: \033[1;32m'))
-        palpite += 1
+        print('\033[m')
     if palpite > numero:
         print('Menos... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite?: \033[1;32m'))
