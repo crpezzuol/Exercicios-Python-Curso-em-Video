@@ -23,6 +23,6 @@ while palpite != numero:
         print('Menos... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite?: \033[1;32m'))
         print('\033[m')
-palpite == numero
+
 palpite += 1
 print(f'Acertou com {palpite} tentativas. Parabéns!!!')
