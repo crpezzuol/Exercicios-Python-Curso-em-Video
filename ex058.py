@@ -33,6 +33,6 @@ while palpite != numero:
         print('\033[m')
 if tentativas == 1:
     print(f'Você acertou apenas com {tentativas} tentativa, isso foi INCRIVEL!!!' )
-    
+else:
 print(f'Acertou com {tentativas} tentativas, Parabéns!!!')
 print('\n')
