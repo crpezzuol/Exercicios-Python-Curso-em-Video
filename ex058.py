@@ -16,7 +16,6 @@ print(numero)
 palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
 numero = random.randint(0, 10)
-
 tentativas += 1
 while palpite != numero:
     if palpite < numero:
