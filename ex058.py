@@ -12,10 +12,10 @@ sleep(0.5)
 print('Estou pensando em um número entre 0 e 10...')
 sleep(1)
 print('Será que você consegue adivinhar qual foi?\n')
-
+numero = random.randint(0, 10)
 palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
-numero = random.randint(0, 10)
+
 print(numero)
 tentativas += 1
 while palpite != numero:
