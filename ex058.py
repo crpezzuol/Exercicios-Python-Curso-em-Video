@@ -1,4 +1,5 @@
  # ex058
+import os
 from time import sleep
 import random
 
