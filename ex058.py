@@ -14,6 +14,7 @@ numero = random.randint(0, 10)
 tentativas += 1
 while palpite != numero:
     if palpite < numero:
+        palpite += 1
         print('Mais... Tente mais uma vez!')
         palpite = int(input('Qual é o seu palpite?: \033[1;32m'))
         palpite += 1
