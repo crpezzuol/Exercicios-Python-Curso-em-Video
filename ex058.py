@@ -28,9 +28,9 @@ while palpite != computador:
         palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
 if tentativas == 1:
-    print(f'Você acertou apenas com {tentativas} tentativa, isso foi INCRIVEL!!!\n' )
+    print(f'Você acertou apenas com {palpites} tentativa, isso foi INCRIVEL!!!\n' )
 else:
-    print(f'Acertou com {tentativas} tentativas, Parabéns!!!\n')
+    print(f'Acertou com {palpites} tentativas, Parabéns!!!\n')
 
 
 # solução curso em video
