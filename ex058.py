@@ -13,4 +13,6 @@ print('\033[m')
 numero = random.randint(0, 10)
 tentativas += 1
 while palpite not in numero:
-    
+    if palpite > numero:
+        
+
