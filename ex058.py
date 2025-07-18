@@ -25,4 +25,4 @@ while palpite != numero:
         print('\033[m')
 
 tentativas += 1
-print(f'Acertou com {palpite} tentativas. Parabéns!!!')
+print(f'Acertou com {tentativas} tentativas. Parabéns!!!')
