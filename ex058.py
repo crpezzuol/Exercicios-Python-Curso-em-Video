@@ -46,6 +46,6 @@ while not acertou:
         acertou = True
     else:
         if jogador < computador:
-            print('Mais... Tnte mais uma vez.')   
+            print('Mais... Tente mais uma vez.')   
         elif jogador > computador:
             print('Menos... Tnte outra vez')
