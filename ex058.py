@@ -3,7 +3,8 @@ import os
 from time import sleep
 from random import randint
 
-tentativas = 0
+palpites = 0
+
 os.system('cls' if os.name == 'nt' else 'clear')
 print('>' * 20, 'JOGO DE ADIVINHAÇÃO', '<' * 20, '\n')
 print('Sou seu computador...')
