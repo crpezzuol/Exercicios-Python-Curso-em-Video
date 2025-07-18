@@ -47,4 +47,5 @@ while not acertou:
     else:
         if jogador < computador:
             print('Mais... Tnte mais uma vez.')   
-            
+        elif jogador > computador:
+            print('Menos... Tnte outra vez')
