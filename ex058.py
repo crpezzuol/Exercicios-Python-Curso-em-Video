@@ -13,7 +13,7 @@ sleep(1)
 print('Será que você consegue adivinhar qual foi?\n')
 palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
-numero = random.randint(1, 10)
+numero = random.randint(1, 3)
 tentativas += 1
 while palpite != numero:
     if palpite < numero:
