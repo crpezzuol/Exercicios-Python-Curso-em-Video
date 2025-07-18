@@ -27,3 +27,4 @@ while palpite != numero:
         palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
 print(f'Acertou com {tentativas} tentativas. Parabéns!!!')
+print('\n')
