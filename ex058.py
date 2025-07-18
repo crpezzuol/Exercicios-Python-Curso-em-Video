@@ -11,7 +11,7 @@ sleep(0.5)
 print('Estou pensando em um número entre 1 e 10...')
 sleep(1)
 print('Será que você consegue adivinhar qual foi?\n')
-palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
+jogador = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
 computador = randint(1, 10)
 palpites += 1
