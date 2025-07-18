@@ -15,11 +15,11 @@ jogador = int(input('Qual é o seu palpite? : \033[1;32m'))
 print('\033[m')
 computador = randint(1, 10)
 palpites += 1
-while palpite != computador:
-    if palpite < computador:
+while jogador != computador:
+    if jogador < computador:
         palpites += 1
         print('Mais... Tente mais uma vez!')
-        palpite = int(input('Qual é o seu palpite? : \033[1;32m'))
+        jogador = int(input('Qual é o seu palpite? : \033[1;32m'))
         print('\033[m')
     else:
         palpite > computador
