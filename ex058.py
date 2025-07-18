@@ -40,4 +40,4 @@ print('Será que você consegue adivinhar qual foi?')
 acertou = False
 palpites = 0
 while not acertou:
-if jogador = int(input('Qual é seu palpite? '))
+    jogador = int(input('Qual é seu palpite? '))
