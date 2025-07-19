@@ -14,3 +14,6 @@ print('    [ 1 ] Somar'
 '\n    [ 5 ] Sair do Programa\n')
 opcao = int(input('>>>>> Qual é a sua opção? \033[1;32m'))
 print('\033[m')
+while opcao == 1:
+    print(f'A soma entre {valor_1} + {valor_2} é {valor_1 + valor_2}')
+    
