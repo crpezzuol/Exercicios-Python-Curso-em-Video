@@ -10,7 +10,7 @@ print(f'\033[mCalculando {n}! = {n}', end = '')
 while c != n:
     
     for c in range(n, 0, -1):
-        print(f' x {c-1}', end = '')
+        print(f' x {n}', end = '')
 
         
     break
