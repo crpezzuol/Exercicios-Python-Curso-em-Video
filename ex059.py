@@ -17,8 +17,8 @@ print('\033[m')
 while opcao == 1:
     print(f'A soma entre {valor_1} + {valor_2} é {valor_1 + valor_2}')
     break
-print('=-=' * 11)
-    while opcao == 2:
-        print(f'A multiplicação entre {valor_1} * {valor_2} é {valor_1 * valor_2}')
-        
+while opcao == 2:
+    print(f'A multiplicação entre {valor_1} * {valor_2} é {valor_1 * valor_2}')
+
+print('=-=' * 11)        
 print('\n')
