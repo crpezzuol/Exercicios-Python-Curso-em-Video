@@ -7,6 +7,7 @@ os.system('cls' if os.name == 'nt' else ' clear')
 c = 0
 n = int(input('Digite um número para calcular seu fatorial: \033[1;32m'))
 while c == n:
+    
     print(f'\033[mCalculando {n}! =', end = ' x ')
-
+    c += 1
     break
