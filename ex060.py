@@ -22,6 +22,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 n = int(input('Digite um número para calcular seu fatorial: '))
 
+
 # 1 solução curso em video
 
 from math import factorial
