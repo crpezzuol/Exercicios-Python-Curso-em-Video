@@ -2,7 +2,7 @@
 # minha 1 solução
 
 import os
-
+from time import sleep
 os.system('cls' if os.name == 'nt' else 'clear')
 
 f = 1
@@ -22,6 +22,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 n = int(input('Digite um número para calcular seu fatorial: '))
 print('Calculando...')
+sleep= 
 
 # 1 solução curso em video
 
