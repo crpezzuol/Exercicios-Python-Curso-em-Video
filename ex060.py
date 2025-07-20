@@ -16,7 +16,7 @@ for c in range(n, 0, -1):
 print(f' = {f}')
 print('\n')
 
-
+# minha 2 solução
 
 # 1 solução curso em video
 
