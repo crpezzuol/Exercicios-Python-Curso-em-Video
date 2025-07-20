@@ -20,6 +20,7 @@ print('\n')
 
 os.systm('cls' if os.name == 'nt' else 'clear')
 
+
 # 1 solução curso em video
 
 from math import factorial
