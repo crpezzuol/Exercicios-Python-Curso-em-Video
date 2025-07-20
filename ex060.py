@@ -19,3 +19,4 @@ print('\n')
 # 1 solução curso em video
 
 from math import factorial
+n = int(input('Digite um número para cacular seu fatorial: '))
