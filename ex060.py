@@ -16,6 +16,8 @@ for c in range(n, 0, -1):
 print(f' = {f}')
 print('\n')
 
+
+
 # 1 solução curso em video
 
 from math import factorial
