@@ -18,7 +18,7 @@ print('\n')
 
 # minha 2 solução
 
-os.systm('cls' if os.name == 'nt' else 'clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 n = int(input('Digite um número para calcular seu fatorial: '))
 
