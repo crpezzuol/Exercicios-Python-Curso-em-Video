@@ -1,5 +1,5 @@
 # ex060  Cálculo do Fatorial
-# minha solução
+# minha 1 solução
 
 import os
 
@@ -16,3 +16,4 @@ for c in range(n, 0, -1):
 print(f' = {f}')
 print('\n')
 
+# 1 solução curso em video
