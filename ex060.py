@@ -12,5 +12,6 @@ print(f'\033[mCalculando {n}! =', end = '')
 for c in range(n, 0, -1):
     f *= c
     print(f' {c} ', end = 'x')
+    
 print(f' = {f}')
 print('\n')
