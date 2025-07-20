@@ -18,3 +18,4 @@ print('\n')
 
 # 1 solução curso em video
 
+from math import factorial
