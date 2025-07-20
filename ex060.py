@@ -18,7 +18,7 @@ print('\n')
 
 # minha 2 solução
 
-
+os.systm('cls' if os.name == 'nt' else 'clear')
 
 # 1 solução curso em video
 
