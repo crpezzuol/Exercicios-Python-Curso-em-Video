@@ -21,7 +21,7 @@ print('\n')
 os.system('cls' if os.name == 'nt' else 'clear')
 
 n = int(input('Digite um número para calcular seu fatorial: '))
-
+print('Calculando...')
 
 # 1 solução curso em video
 
