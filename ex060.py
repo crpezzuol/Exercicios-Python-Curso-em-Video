@@ -20,7 +20,7 @@ print('\n')
 
 # os.system('cls' if os.name == 'nt' else 'clear')
 
-n = int(input('Digite um número para calcular seu fatorial: '))
+n = int(input('Digite um número para calcular seu fatorial: \033[1;32m'))
 print('Calculando...')
 sleep(1)
 
