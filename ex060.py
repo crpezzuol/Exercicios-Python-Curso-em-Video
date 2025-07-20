@@ -4,6 +4,7 @@
 import os
 
 os.system('cls' if os.name == 'nt' else ' clear')
+
 f = 1
 n = int(input('Digite um número para calcular seu fatorial: \033[1;32m'))
 print(f'\033[mCalculando {n}! =', end = '') 
