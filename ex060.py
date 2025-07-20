@@ -25,6 +25,6 @@ n = int(input('Digite um número para calcular seu fatorial: '))
 # 1 solução curso em video
 
 from math import factorial
-n = int(input('Digite um número para cacular seu fatorial: '))
+n = int(input('Digite um número para cacular seu fatorial: \033[1;32m'))
 f = factorial(n)
 print(f'O fatorial de {n} é {f}')
