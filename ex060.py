@@ -18,6 +18,7 @@ print('\n')
 
 # minha 2 solução
 
+
 # 1 solução curso em video
 
 from math import factorial
