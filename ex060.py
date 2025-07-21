@@ -30,3 +30,5 @@ from math import factorial
 n = int(input('Digite um número para cacular seu fatorial: \033[1;32m'))
 f = factorial(n)
 print(f'\033[mO fatorial de {n} é {f}')
+
+
