@@ -34,3 +34,4 @@ print(f'\033[mO fatorial de {n} é {f}')
 
 # 2 solução curso em video
 
+
